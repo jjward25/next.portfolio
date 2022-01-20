@@ -1,0 +1,30 @@
+/** Home Menubar **/
+
+.menubar {
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  height: 8vh;
+  width: 100vw;
+  background-color: #ffffff;
+}
+
+.menubar-title {
+  font-size: 2em;
+  font-weight: bold;
+  width: auto;
+  margin: 1vh 1vh;
+}
+
+.menubar-menu {
+  background-color: #212529;
+  font-size: 0.6em;
+  color: white;
+  border-radius: 20em;
+  border: 1px solid black;
+  height: 6vh;
+  width: 6vh;
+  margin: 1vh 1vh 0 0;
+}

@@ -1,0 +1,132 @@
+@import "mixins";
+
+/*************************/
+/***** BUSINESS CARD *****/
+/*************************/
+.business-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+
+  .bc-photo-wrap {
+    max-width: 100%;
+    height: 24vh;
+    position: relative;
+    margin: 7vh 0 5vh 0;
+  }
+
+  /***** BizCard Email *****/
+  .bc-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5em;
+    font-weight: 650;
+    text-align: center;
+    height: 16vh;
+  }
+
+  /**** Employers Bar *****/
+  .mobile-border-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5vh 5vh;
+    margin: 5vh 0;
+    position: relative;
+
+    .mobile-border-box {
+      border-bottom: 2px solid #111f2d;
+    }
+    .mobile-border-images {
+      background-color: #111f2d;
+      border: 2px solid #111f2d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 15%;
+      bottom: 0;
+      right: 0;
+      width: 70%;
+      font-weight: 650;
+      border-radius: 100px;
+    }
+  }
+  .bc-employers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+
+    .bc-work-img {
+      position: relative;
+      margin: auto;
+      height: 65px;
+      width: 65px;
+      border-radius: 80px;
+      border: 2px solid black;
+      overflow: hidden;
+    }
+  }
+
+  /**** Service Summary *****/
+  .service-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 0 0 8vh 0;
+    margin: 0;
+  }
+
+  /**** Skillbar *****/
+  .skill-icon-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+  }
+  .skill-item-wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 60px;
+    font-size: 0em;
+    transition-property: font-size;
+    transition-duration: 1.5s;
+  }
+  .skill-item-wrap:hover {
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 0;
+  }
+  .services-skill-button {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    max-width: 45px;
+    margin: 0;
+    transition-property: height;
+    transition-duration: 1.5s;
+  }
+  .services-skill-button:hover {
+    height: 0px;
+  }
+
+  /***** PERSONAL STATEMENT *****/
+  .personal-statement {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 2.5vh 0;
+  }
+}

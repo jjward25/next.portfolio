@@ -1,0 +1,18 @@
+@import "mixins";
+
+.container {
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  @include multicolor-text2;
+
+  .main {
+    min-height: 100vh;
+    width: 100%;
+    padding: 8vh 1em;
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}
