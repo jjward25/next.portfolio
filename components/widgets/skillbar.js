@@ -29,7 +29,7 @@ return (
 
         <p className={styles['skill-item-wrap']}>
           <div className={styles['services-skill-button']}>
-          <Image src="/img-skill-tableau.png" alt='tableau' title='Tableau' layout='fill'/></div>
+          <Image src="/img-skill-tableau.png" alt='Tableau' title='Tableau' layout='fill'/></div>
           Tableau</p>
 
     </div>

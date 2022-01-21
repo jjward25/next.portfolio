@@ -16,33 +16,40 @@ return (
     
     <div className={styles['bc-details']}>
 
-      <div className={styles['bc-email']}>Joseph.Ward<br/>@Outlook.com</div>    
-      <div className={styles['mobile-border-grid']}>
-        <div className={styles['mobile-border-box']}></div>
-        <div className={styles['mobile-border-images']}>
+      <div className={styles['bc-link-container']}>
+        <button className={styles['bc-link']}>E-Mail</button>
+        <button className={styles['bc-link']}><a href="https://medium.com/cultural-commentary" alt="Medium" target="_blank">Blog</a></button>
+        <button className={styles['bc-link']}><a href="https://github.com/jjward25" alt="Github" target="_blank">Github</a></button>
+        <button className={styles['bc-link']}>Portfolio</button>
+        <button className={styles['bc-link']}><a href="https://www.linkedin.com/in/joe-ward1/" alt="LinkedIn" target="_blank">LinkedIn</a></button>
+      </div>
         <Employers/>
-        </div>
+
+      <div className={styles['service-summary']}>
+        <div className={styles['service-tag']}>{`#Operational-Efficiency;`}</div>
+        <div className={styles['service-tag']}>{`#Digital-Transformation;`}</div>
+        <div className={styles['service-tag']}>{`#Analytics;`}</div>
+        <div className={styles['service-tag']}>{`#Strategy;`}</div>
+        <div className={styles['service-tag']}>{`#Tooling;`}</div>
       </div>
 
+        <Skillbar/>
       
-      <ul className={styles['service-summary']}>
-        {`#Operational-Efficiency; #Digital-Transformation; #Analytics; #Strategy; #Tooling;`}
-      </ul>
-      <Skillbar/>
-      
-
       <div className={styles['personal-statement']}>
-        Digital Transformation is the new buzzword. 
-        <br/>
-        -<br/>
-        Flexible and scalable solutions demand detailed knowledge of your operations.
-        <br/>
-        -<br/>
-        I use traditional project management tools, modern analytics, and a broad range of experience to help all kinds of teams reach their maximum potential.
+       {`I use traditional modern tools, trusted methods, and a broad range of experience to help all kinds of teams reach their maximum potential.`}
       </div>
-
-      
-      
+      <div className={styles['personal-statement']}>
+       {`For modern companies, being flexible and focused is key. The Digital Transformation trend is about identifying and focusing on your core functions.  What do you do that creates the most value for your clients?`}
+      </div>
+      <div className={styles['personal-statement']}>
+       {`With Lean/Six Sigma tools I will map out your operations, identify KPIs, reporting needs, tooling, and more.`}
+      </div>
+      <div className={styles['personal-statement']}>
+       {`This operational mapping enables a culture of change driven by employees, as they describe their processes and problems and help prioritize solutions.`}
+      </div>
+      <div className={styles['personal-statement']}>
+       {`At the same time these maps must be reviewed to see what we do well, and what we're better off finding a partner for.  This is the future of business, narrowly focuses operations filling a niche and expanding strategically to new partners and related products.`}
+      </div>
 
     </div> 
   

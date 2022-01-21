@@ -12,60 +12,41 @@
 
   .bc-photo-wrap {
     max-width: 100%;
-    height: 24vh;
+    height: 16vh;
     position: relative;
-    margin: 7vh 0 5vh 0;
+    margin: 4.5vh 0;
   }
 
   /***** BizCard Email *****/
-  .bc-email {
+  .bc-link-container {
+    height: 31vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 1.5em;
-    font-weight: 650;
+  }
+  .bc-link {
+    font-size: 1.2em;
+    font-weight: 800;
     text-align: center;
-    height: 16vh;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    text-shadow: 0px 1px 1px black;
   }
 
   /**** Employers Bar *****/
-  .mobile-border-grid {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 5vh 5vh;
-    margin: 5vh 0;
-    position: relative;
-
-    .mobile-border-box {
-      border-bottom: 2px solid #111f2d;
-    }
-    .mobile-border-images {
-      background-color: #111f2d;
-      border: 2px solid #111f2d;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      top: 0;
-      left: 15%;
-      bottom: 0;
-      right: 0;
-      width: 70%;
-      font-weight: 650;
-      border-radius: 100px;
-    }
-  }
   .bc-employers {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 0 0;
+    margin: 5vh 0;
 
     .bc-work-img {
       position: relative;
       margin: auto;
-      height: 65px;
-      width: 65px;
+      height: 60px;
+      width: 60px;
       border-radius: 80px;
       border: 2px solid black;
       overflow: hidden;
@@ -74,15 +55,20 @@
 
   /**** Service Summary *****/
   .service-summary {
+    max-height: 16vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 20vh;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .service-tag {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: 700;
-    padding: 0 0 8vh 0;
-    margin: 0;
+    padding: 6px 10px;
+    background-color: #111f2d;
+    color: white;
+    border-radius: 100px;
+    margin: 1px;
   }
 
   /**** Skillbar *****/
@@ -92,6 +78,7 @@
     justify-content: space-evenly;
     height: auto;
     width: 100%;
+    margin: 5vh 0;
   }
   .skill-item-wrap {
     display: flex;
@@ -112,12 +99,12 @@
   }
   .services-skill-button {
     position: relative;
-    height: 45px;
+    height: 40px;
     width: 100%;
-    max-width: 45px;
+    max-width: 40px;
     margin: 0;
     transition-property: height;
-    transition-duration: 1.5s;
+    transition-duration: 1s;
   }
   .services-skill-button:hover {
     height: 0px;
@@ -125,8 +112,10 @@
 
   /***** PERSONAL STATEMENT *****/
   .personal-statement {
-    text-align: center;
-    font-size: 0.9em;
-    padding: 2.5vh 0;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 550;
+    padding: 0vh 1vh;
+    margin-bottom: 5vh;
   }
 }
