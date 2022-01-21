@@ -5,6 +5,7 @@
   min-height: 100%;
   width: 100%;
   @include multicolor-text2;
+  z-index: 1;
 
   .main {
     min-height: 100vh;
