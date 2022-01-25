@@ -24,27 +24,9 @@
   }
 }
 
-@mixin colors() {
-  color: #0070f3;
-}
-
-@mixin multicolor-text {
-  background-image: linear-gradient(
-    to left,
-    black,
-    black,
-    navy,
-    rgb(107, 107, 107),
-    black,
-    rgb(107, 107, 107),
-    navy,
-    black,
-    black
-  );
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
+@mixin color-dark {
+  background-color: #112f4c;
+  color: #112f4c;
 }
 
 @mixin multicolor-text2 {

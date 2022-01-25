@@ -1,30 +1,40 @@
 /** Home Menubar **/
 
-.menubar {
+.menubar-menu {
   position: fixed;
   z-index: 5;
+  right: 0;
   display: flex;
-  justify-content: space-between;
-  top: 0;
-  height: 8vh;
-  width: 100vw;
-  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 36.5vh;
+  font-size: 0.7em;
+  text-align: center;
+  width: 15vw;
+  margin: 0;
 }
 
-.menubar-title {
-  font-size: 2em;
-  font-weight: bold;
-  width: auto;
-  margin: 1vh 1vh;
+.bc-link {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  margin: 0;
 }
 
-.menubar-menu {
-  background-color: #212529;
-  font-size: 0.6em;
-  color: white;
-  border-radius: 20em;
-  border: 1px solid black;
-  height: 6vh;
-  width: 6vh;
-  margin: 1vh 1vh 0 0;
+.bc-work-icon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  height: 12vw;
+  width: 12vw;
+  border: 1px solid white;
+  border-radius: 2em;
+  overflow: hidden;
 }

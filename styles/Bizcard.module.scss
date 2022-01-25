@@ -7,119 +7,111 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  width: 85vw;
   height: 100%;
+  border-right: 1px solid navy;
+  padding-bottom: 2vh;
+
+  .menubar-title {
+    font-size: 2.1em;
+    font-weight: 700;
+    width: auto;
+    height: 8vh;
+    margin: auto 4.5vw;
+    display: flex;
+    align-items: center;
+  }
 
   .bc-photo-wrap {
-    max-width: 100%;
-    height: 16vh;
+    width: 100%;
+    height: 20vh;
     position: relative;
-    margin: 4.5vh 0;
+    margin: 3vh 0 3vh 0;
   }
 
-  /***** BizCard Email *****/
-  .bc-link-container {
-    height: 31vh;
+  /***** BLOG LINKS *****/
+  .bc-blog-wrap {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-  }
-  .bc-link {
-    font-size: 1.1em;
-    font-weight: 800;
-    text-align: center;
-    margin: auto;
-    border: none;
-    background-color: transparent;
-  }
-
-  /**** Employers Bar *****/
-  .bc-employers {
+    justify-content: space-between;
+    text-align: left;
+    padding: 1vh 0 1.5vh 5vw;
+    margin-top: 2.5vh;
+    margin-bottom: 5vh;
+    height: 27.5vh;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 0;
-    margin: 5vh 0;
-
-    .bc-work-img {
-      position: relative;
-      margin: auto;
-      height: 65px;
-      width: 65px;
-      border-radius: 80px;
-      border: 2px solid black;
-      overflow: hidden;
-    }
+    font-weight: 600;
+    font-size: 1.25em;
+    color: black;
   }
 
   /**** Service Summary *****/
   .service-summary {
-    max-height: 16vh;
+    height: 21vh;
+    width: 100%;
+    padding: 0 5vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
   }
   .service-tag {
+    height: 2.2em;
     text-align: center;
-    font-size: 0.9em;
-    font-weight: 700;
-    padding: 6px 10px;
-    background-color: #111f2d;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 4px 12px;
+    background-color: black;
     color: white;
     border-radius: 100px;
-    margin: 1px;
+    margin: 2px 5px;
   }
+}
+/***** END OF BIZCARD *****/
 
-  /**** Skillbar *****/
-  .skill-icon-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    height: auto;
-    width: 100%;
-    margin: 5vh 0;
-  }
-  .skill-item-wrap {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    width: 60px;
-    font-size: 0em;
-    transition-property: font-size;
-    transition-duration: 1.5s;
-  }
-  .skill-item-wrap:hover {
-    font-size: 0.8em;
-    font-weight: 500;
-    margin: 0;
-  }
-  .services-skill-button {
-    position: relative;
-    height: 40px;
-    width: 100%;
-    max-width: 40px;
-    margin: 0;
-    transition-property: height;
-    transition-duration: 1s;
-  }
-  .services-skill-button:hover {
-    height: 0px;
-  }
+/**** Skillbar *****/
+.skill-icon-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: auto;
+  width: 75vw;
+  margin: 0vh 5vw 5vh 5vw;
+}
+.skill-item-wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 50px;
+  font-size: 0em;
+  transition-property: font-size;
+  transition-duration: 1.5s;
+}
+.skill-item-wrap:hover {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0;
+}
+.services-skill-button {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  max-width: 40px;
+  margin: 0;
+  transition-property: height;
+  transition-duration: 1s;
+}
+.services-skill-button:hover {
+  height: 0px;
+}
 
-  /***** PERSONAL STATEMENT *****/
-  .personal-statement {
-    text-align: left;
-    font-size: 1em;
-    font-weight: 550;
-    padding: 0vh 1vh;
-    margin-bottom: 5vh;
-  }
-
-  /***** PERSONAL STATEMENT *****/
-  .mobile-menu {
-    height: 100%;
-  }
+/***** PERSONAL STATEMENT *****/
+.personal-statement {
+  text-align: left;
+  font-size: 1em;
+  font-weight: 550;
+  padding: 0vh 5vw;
+  margin-bottom: 4.8vh;
 }
