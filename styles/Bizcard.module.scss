@@ -9,49 +9,54 @@
   justify-content: space-between;
   width: 85vw;
   height: 100%;
-  border-right: 1px solid navy;
-  padding-bottom: 2vh;
+  padding-bottom: 7.5vh;
 
   .menubar-title {
     font-size: 2.1em;
     font-weight: 700;
     width: auto;
     height: 8vh;
-    margin: auto 4.5vw;
+    margin: auto 5vw;
     display: flex;
     align-items: center;
   }
 
   .bc-photo-wrap {
     width: 100%;
-    height: 20vh;
+    height: 17vh;
     position: relative;
-    margin: 3vh 0 3vh 0;
+    margin: 3vh 0 4vh 0;
   }
 
   /***** BLOG LINKS *****/
   .bc-blog-wrap {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 0 10vh 0;
     text-align: left;
-    padding: 1vh 0 1.5vh 6vw;
-    height: 30vh;
+    padding-left: 7vw;
+    height: 32.5vh;
     width: 100%;
     font-weight: 600;
     font-size: 1.25em;
-    color: black;
+    color: rgb(8, 8, 39);
+  }
+  .bc-blog-title {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 0;
   }
 
   /**** Service Summary *****/
   .service-summary {
-    height: 21vh;
+    height: auto;
     width: 100%;
     padding: 0 5vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    margin: 1.5vh 0;
+    margin: 0;
   }
   .service-tag {
     height: 2.2em;
@@ -71,10 +76,10 @@
 .skill-icon-wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: auto;
   width: 75vw;
-  margin: 0vh 5vw 5vh 5vw;
+  margin: 2.5vh 5vw 5vh 5vw;
 }
 .skill-item-wrap {
   display: flex;
@@ -93,6 +98,7 @@
   font-weight: 500;
   margin: 0;
 }
+
 .services-skill-button {
   position: relative;
   height: 40px;
@@ -101,6 +107,9 @@
   margin: 0;
   transition-property: height;
   transition-duration: 1s;
+  border: 1px solid white;
+  border-radius: 100px;
+  overflow: hidden;
 }
 .services-skill-button:hover {
   height: 0px;
@@ -112,5 +121,5 @@
   font-size: 1em;
   font-weight: 550;
   padding: 0vh 5vw;
-  margin-bottom: 4.8vh;
+  margin-bottom: 3vh;
 }

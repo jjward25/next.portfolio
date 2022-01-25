@@ -23,10 +23,11 @@ return (
     </div>
     
     <div className={styles['bc-blog-wrap']}>
+      <p className={styles['bc-blog-title']}>Blog Posts</p>
       <li className={styles['bc-blog-link']}>Operations Management</li>
       <li className={styles['bc-blog-link']}>{`Data & Analytics`}</li>
       <li className={styles['bc-blog-link']}>Process Design</li>
-      <li className={styles['bc-blog-link']}>Place Holder</li>
+      <li className={styles['bc-blog-link']}>Change Management</li>
     </div>
 
     <div className={styles['service-summary']}>
