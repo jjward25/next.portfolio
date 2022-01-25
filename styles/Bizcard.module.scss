@@ -33,12 +33,10 @@
   .bc-blog-wrap {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: left;
-    padding: 1vh 0 1.5vh 5vw;
-    margin-top: 2.5vh;
-    margin-bottom: 5vh;
-    height: 27.5vh;
+    padding: 1vh 0 1.5vh 6vw;
+    height: 30vh;
     width: 100%;
     font-weight: 600;
     font-size: 1.25em;
@@ -53,11 +51,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    margin: 1.5vh 0;
   }
   .service-tag {
     height: 2.2em;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 75%;
     font-weight: 600;
     padding: 4px 12px;
     background-color: black;
