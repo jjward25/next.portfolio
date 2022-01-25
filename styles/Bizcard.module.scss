@@ -61,7 +61,7 @@
       left: calc(50vw - 7vh);
     }
     @include for-desktop-up {
-      left: calc(20vw - 7vh);
+      left: calc(12.5vw - 7vh);
     }
   }
 
@@ -102,6 +102,9 @@
       height: auto;
       margin: 0vh auto 2.5vh auto;
     }
+    @include for-desktop-up {
+      margin-bottom: 0;
+    }
   }
   .bc-blog-link {
     margin: 1.5vh 0;
@@ -111,6 +114,7 @@
     @include for-desktop-up {
       font-size: 0;
       height: 0;
+      margin: 0;
     }
   }
 
@@ -132,8 +136,9 @@
     }
     @include for-desktop-up {
       width: 100%;
-      padding: 1vh 7.5vw;
-      justify-content: space-around;
+      padding: 1vh 0vw;
+      justify-content: center;
+      margin: 1.5vh 0;
     }
   }
   .service-tag {
@@ -153,6 +158,10 @@
       padding: 8px 12px;
       height: auto;
       margin: 5px 10px;
+    }
+    @include for-desktop-up {
+      font-size: 100%;
+      margin: 10px 10px;
     }
   }
 }
@@ -181,6 +190,7 @@
     padding: 0;
     border-bottom: none;
     margin: auto;
+    margin-top: 5vh;
   }
 }
 .skill-item-wrap {
@@ -201,7 +211,7 @@
     width: 10vw;
   }
   @include for-desktop-up {
-    width: 6vw;
+    width: 4vw;
   }
 }
 .skill-item-wrap:hover {
@@ -229,8 +239,9 @@
     font-weight: 600;
   }
   @include for-desktop-up {
-    max-width: 4vw;
-    height: 4vw;
+    max-width: 3vw;
+    height: 3vw;
+    margin: auto;
   }
 }
 .services-skill-button:hover {
