@@ -32,12 +32,15 @@
 @mixin multicolor-text2 {
   background-image: linear-gradient(
     to bottom,
+    rgb(50, 50, 85),
+    rgb(50, 50, 85),
+    rgb(61, 61, 88),
+    rgb(61, 61, 88),
+    rgb(95, 95, 124),
+    rgb(95, 95, 124),
     white,
     white,
     white,
-    rgb(235, 235, 250),
-    rgb(207, 207, 224),
-    rgb(207, 207, 224),
-    rgb(207, 207, 224)
+    white
   );
 }

@@ -36,13 +36,11 @@ return (
       <div className={styles['service-tag']}>{`Digital Transformation`}</div>
       <div className={styles['service-tag']}>{`Data & Analytics`}</div>
       <div className={styles['service-tag']}>{`Operational Efficiency`}</div>
+      <div className={styles['service-tag']}>{`Strategy`}</div>
       <div className={styles['service-tag']}>{`Change Management`}</div>
       <div className={styles['service-tag']}>{`Process Design`}</div>
-      <div className={styles['service-tag']}>{`Product Strategy`}</div>
       <div className={styles['service-tag']}>{`Tooling`}</div>
     </div>
-
-    <Skillbar/>
 
     <div className={styles['personal-statement']}>
       {`I use traditional modern tools, trusted methods, and a broad range of experience to help all kinds of teams reach their maximum potential.`}
@@ -59,6 +57,7 @@ return (
     <div className={styles['personal-statement']}>
       {`At the same time these maps must be reviewed to see what we do well, and what we're better off finding a partner for.  This is the future of business, narrowly focuses operations filling a niche and expanding strategically to new partners and related products.`}
     </div>
+    <Skillbar/>
   
   </div>
 )};
