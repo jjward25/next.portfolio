@@ -1,5 +1,4 @@
 import styles from '../styles/Menubar.module.scss';
-import Link from 'next/link'
 import Image from 'next/image';
 
 export default function Menubar() {
@@ -14,7 +13,7 @@ return (
             <div className={styles['menubar-menu']}>        
                 <p className={styles['bc-link']}>
                 <a href="https://www.linkedin.com/in/joe-ward1/" title="LinkedIn" alt="LinkedIn" target="_blank" className={styles['bc-work-icon']}>
-                <Image src="/icon-linkedin.png" alt="LinkedIn" layout="fill"></Image></a>
+                <Image src="/icon-linkedin-blue.png" alt="LinkedIn" layout="fill"></Image></a>
                 LinkedIn</p>
 
                 <p className={styles['bc-link']} >

@@ -1,7 +1,6 @@
 import styles from '../styles/Bizcard.module.scss';
-import Link from 'next/link'
 import Image from 'next/image';
-import Skillbar from '../components/widgets/skillbar'
+import Skillbar from './skillbar'
 
 
 export default function Bizcard() {
@@ -19,12 +18,17 @@ return (
     </div>
 
     <div className={styles['bc-photo-wrap']}>
-      <Image src="/selfie-circle.png" layout='fill' alt="selfie" priority={true} objectFit='contain'></Image>
+      <div className={styles['bc-gear-img']}>
+        <Image src="/icon-gear.png" layout='fill' alt="gear" priority={true} objectFit='contain'></Image>
+      </div>
+      <div className={styles['bc-photo-img']}>
+        <Image src="/selfie-circle.png" layout='fill' alt="selfie" priority={true} objectFit='contain'></Image>
+      </div>
     </div>
     
     <div className={styles['bc-blog-wrap']}>
       <p className={styles['bc-blog-title']}>Blog Posts</p>
-      <li className={styles['bc-blog-link']}>Operations Management</li>
+      <li className={styles['bc-blog-link']}>Digital Transformation</li>
       <li className={styles['bc-blog-link']}>{`Data & Analytics`}</li>
       <li className={styles['bc-blog-link']}>Process Design</li>
       <li className={styles['bc-blog-link']}>Change Management</li>
