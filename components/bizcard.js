@@ -12,14 +12,9 @@ export default function Bizcard() {
 
 return (
   <div className={styles['business-card']}>
-  
-    <div className={styles['menubar-title']}>
-        Ward.CV
-    </div>
-
     <div className={styles['bc-photo-wrap']}>
       <div className={styles['bc-gear-img']}>
-        <Image src="/icon-gear.png" layout='fill' alt="gear" priority={true} objectFit='contain'></Image>
+        <Image src="/icon-gear-clear.png" layout='fill' alt="gear" priority={true} objectFit='contain'></Image>
       </div>
       <div className={styles['bc-photo-img']}>
         <Image src="/selfie-circle.png" layout='fill' alt="selfie" priority={true} objectFit='contain'></Image>
@@ -27,11 +22,14 @@ return (
     </div>
     
     <div className={styles['bc-blog-wrap']}>
-      <p className={styles['bc-blog-title']}>Blog Posts</p>
-      <li className={styles['bc-blog-link']}>Digital Transformation</li>
-      <li className={styles['bc-blog-link']}>{`Data & Analytics`}</li>
-      <li className={styles['bc-blog-link']}>Process Design</li>
-      <li className={styles['bc-blog-link']}>Change Management</li>
+      
+      <div className={styles['bc-blog-title']}>
+        Ward.CV
+    </div>
+      <li className={styles['bc-blog-link']}>Digital Transformation Posts</li>
+      <li className={styles['bc-blog-link']}>{`Data & Analytics Posts`}</li>
+      <li className={styles['bc-blog-link']}>Process Design Posts</li>
+      <li className={styles['bc-blog-link']}>{`Coding & Other`}</li>
     </div>
 
     <div className={styles['service-summary']}>

@@ -8,11 +8,30 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 36.5vh;
+  min-height: 36.5vh;
+  max-height: 50vh;
   font-size: 0.7em;
   text-align: center;
   width: 15vw;
   margin: 0;
+
+  @include for-tablet-portrait-up {
+    min-height: auto;
+    height: 11vh;
+    flex-direction: row;
+    right: auto;
+    left: 10vw;
+    width: 80vw;
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-radius: 10em;
+    justify-content: space-around;
+    padding: 0 2.5vw;
+  }
+  @include for-desktop-up {
+    max-width: 40vw;
+    left: 0;
+  }
 }
 .bc-link {
   display: flex;
@@ -23,7 +42,13 @@
   text-align: center;
   border: none;
   background-color: transparent;
-  margin: 0;
+  margin: 0.5vh 0;
+
+  @include for-tablet-portrait-up {
+    font-size: 2em;
+    padding: 0;
+    margin: auto 0;
+  }
 }
 
 .bc-work-icon {
@@ -37,4 +62,13 @@
   border: 1px solid transparent;
   border-radius: 2em;
   overflow: hidden;
+
+  @include for-tablet-portrait-up {
+    height: 5vw;
+    width: 5vw;
+  }
+  @include for-desktop-up {
+    height: 4vw;
+    width: 4vw;
+  }
 }

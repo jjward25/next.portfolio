@@ -11,23 +11,32 @@
   height: 100%;
   padding-bottom: 7.5vh;
 
-  .menubar-title {
-    font-size: 2.1em;
-    font-weight: 800;
-    width: auto;
-    height: 8vh;
-    margin: auto 5vw;
-    display: flex;
-    align-items: center;
+  @include for-tablet-portrait-up {
+    margin-top: 10vh;
+    width: 100vw;
   }
+  @include for-desktop-up {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
   .bc-photo-wrap {
     position: relative;
     top: 0;
     left: 0;
-    margin: 1.5vh 0vw 3vh 0;
+    margin: 4vh 0vw 2.5vh 0;
     width: 100vw;
     padding-right: 10vw;
+
+    @include for-tablet-portrait-up {
+      padding-right: 0;
+      margin: 7vh 0 4vh 0;
+    }
+    @include for-desktop-up {
+      width: 100%;
+    }
   }
+
   .bc-gear-img {
     position: relative;
     top: 0;
@@ -35,6 +44,7 @@
     height: 22vh;
     width: 100%;
     animation: rotation 15s linear infinite;
+    z-index: 1;
   }
   .bc-photo-img {
     position: absolute;
@@ -46,6 +56,13 @@
     border-radius: 20em;
     border: 1px solid transparent;
     overflow: hidden;
+
+    @include for-tablet-portrait-up {
+      left: calc(50vw - 7vh);
+    }
+    @include for-desktop-up {
+      left: calc(20vw - 7vh);
+    }
   }
 
   /***** BLOG LINKS *****/
@@ -61,11 +78,39 @@
     font-weight: 600;
     font-size: 1.1em;
     color: rgb(8, 8, 39);
+
+    @include for-tablet-portrait-up {
+      font-size: 1.5em;
+      padding: 0;
+      margin-bottom: 5vh;
+    }
+    @include for-desktop-up {
+      height: auto;
+    }
   }
   .bc-blog-title {
-    font-size: 1.3em;
-    font-weight: 700;
-    margin: 1vh 0 0 0;
+    font-size: 2.1em;
+    font-weight: 800;
+    width: auto;
+    height: 8vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    @include for-tablet-portrait-up {
+      font-size: 2.5em;
+      height: auto;
+      margin: 0vh auto 0vh auto;
+    }
+  }
+  .bc-blog-link {
+    @include for-tablet-portrait-up {
+      padding-left: 10vw;
+    }
+    @include for-desktop-up {
+      font-size: 0;
+      height: 0;
+    }
   }
 
   /**** Service Summary *****/
@@ -77,6 +122,15 @@
     flex-wrap: wrap;
     justify-content: left;
     margin: 0;
+
+    @include for-tablet-portrait-up {
+      justify-content: space-evenly;
+      padding-top: 2.5vh;
+    }
+    @include for-desktop-up {
+      padding: 1vh 7.5vw;
+      justify-content: space-around;
+    }
   }
   .service-tag {
     height: 2.2em;
@@ -88,6 +142,13 @@
     color: white;
     border-radius: 100px;
     margin: 2px 5px;
+
+    @include for-tablet-portrait-up {
+      font-size: 115%;
+      padding: 8px 12px;
+      height: auto;
+      margin: 5px 10px;
+    }
   }
 }
 /***** END OF BIZCARD *****/
@@ -100,6 +161,16 @@
   height: auto;
   width: 75vw;
   margin: 2.5vh 5vw 5vh 5vw;
+
+  @include for-tablet-portrait-up {
+    width: 100vw;
+    justify-content: space-around;
+    margin: 5vh 0;
+  }
+  @include for-desktop-up {
+    width: 100%;
+    justify-content: space-evenly;
+  }
 }
 .skill-item-wrap {
   display: flex;
@@ -112,6 +183,14 @@
   font-size: 0em;
   transition-property: font-size;
   transition-duration: 1.5s;
+
+  @include for-tablet-portrait-up {
+    height: auto;
+    width: 10vw;
+  }
+  @include for-desktop-up {
+    width: 6vw;
+  }
 }
 .skill-item-wrap:hover {
   font-size: 0.8em;
@@ -130,6 +209,16 @@
   border: 1px solid white;
   border-radius: 100px;
   overflow: hidden;
+
+  @include for-tablet-portrait-up {
+    max-width: 10vw;
+    height: 10vw;
+    margin: 2.5vh 0;
+  }
+  @include for-desktop-up {
+    max-width: 4vw;
+    height: 4vw;
+  }
 }
 .services-skill-button:hover {
   height: 0px;
@@ -142,6 +231,14 @@
   font-weight: 550;
   padding: 0vh 5vw;
   margin-bottom: 3vh;
+
+  @include for-tablet-portrait-up {
+    font-size: 115%;
+  }
+  @include for-desktop-up {
+    font-size: 0;
+    margin: 0;
+  }
 }
 
 @keyframes rotation {
