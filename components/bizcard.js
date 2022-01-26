@@ -4,11 +4,6 @@ import Skillbar from './skillbar'
 
 
 export default function Bizcard() {
-  const text = 'Joseph.Ward@Outlook.com'  
-  const copy = async () => {
-    await navigator.clipboard.writeText(text);
-    alert('Text copied');
-  }
 
 return (
   <div className={styles['business-card']}>
@@ -23,9 +18,8 @@ return (
     
     <div className={styles['bc-blog-wrap']}>
       
-      <div className={styles['bc-blog-title']}>
-        Ward.CV
-    </div>
+      <div className={styles['bc-blog-title']}>Joe Ward</div>
+      <div className={styles['bc-blog-subtitle']}><em>Operations Specialist</em></div>
       <li className={styles['bc-blog-link']}>Digital Transformation Posts</li>
       <li className={styles['bc-blog-link']}>{`Data & Analytics Posts`}</li>
       <li className={styles['bc-blog-link']}>Process Design Posts</li>

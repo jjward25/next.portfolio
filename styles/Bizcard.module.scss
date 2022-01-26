@@ -92,8 +92,8 @@
     font-size: 2.1em;
     font-weight: 800;
     width: auto;
-    height: 8vh;
-    margin: 2vh 0 2.5vh 0;
+    height: auto;
+    margin: 1vh 0 1vh 0;
     display: flex;
     align-items: center;
 
@@ -105,6 +105,9 @@
     @include for-desktop-up {
       margin-bottom: 0;
     }
+  }
+  .bc-blog-subtitle {
+    margin-bottom: 3vh;
   }
   .bc-blog-link {
     margin: 1.5vh 0;
