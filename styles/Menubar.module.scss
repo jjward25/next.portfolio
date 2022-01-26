@@ -50,6 +50,7 @@
     font-size: 2em;
     padding: 0;
     margin: auto 0;
+    max-height: 11vh;
   }
   @include for-desktop-up {
     font-size: 1.5em;
