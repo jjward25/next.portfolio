@@ -108,6 +108,10 @@
   }
   .bc-blog-subtitle {
     margin-bottom: 3vh;
+
+    @include for-tablet-portrait-up {
+      text-align: center;
+    }
   }
   .bc-blog-link {
     margin: 1.5vh 0;
