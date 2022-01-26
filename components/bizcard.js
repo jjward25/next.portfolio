@@ -37,19 +37,16 @@ return (
     </div>
 
     <div className={styles['personal-statement']}>
-      {`I use traditional modern tools, trusted methods, and a broad range of experience to help all kinds of teams reach their maximum potential.`}
+      {`From running with the bulls in Pamplona to homeless outreach in Penn Station, I’ve always chased new experiences and perspectives. I firmly believe time is the most valuable thing in the world and I plan to make the most of it. I breath efficiency.`}
     </div>
     <div className={styles['personal-statement']}>
-      {`For modern companies, being flexible and focused is key. The Digital Transformation trend is about identifying and focusing on your core functions.  What do you do that creates the most value for your clients?`}
+      {`I began my career with a rotational program that exposed me to Lean, SQL, Tableau, formal project management practices, and how people react when they think you’re telling them how to do their job.`}
     </div>
     <div className={styles['personal-statement']}>
-      {`With Lean/Six Sigma tools I will map out your operations, identify KPIs, reporting needs, tooling, and more.`}
+      {`I’ve since mapped and designed processes, identified KPIs, solved culture issues, and became a trusted partner for both information and executing improvements.`}
     </div>
     <div className={styles['personal-statement']}>
-      {`This operational mapping enables a culture of change driven by employees, as they describe their processes and problems and help prioritize solutions.`}
-    </div>
-    <div className={styles['personal-statement']}>
-      {`At the same time these maps must be reviewed to see what we do well, and what we're better off finding a partner for.  This is the future of business, narrowly focuses operations filling a niche and expanding strategically to new partners and related products.`}
+      {`I enjoy sitting at the cross-section of analytics and operations, finding unique solutions for unique problems, and helping all kinds of teams reach their maximum potential.`}
     </div>
     <Skillbar/>
   
