@@ -7,13 +7,18 @@ return (
         
         <div className={styles['blog-title']}>Modern Business</div>
         
-        <p className={styles['blog-description']}>{`I look at business in terms of three major questions:`}</p>
+        <p className={styles['blog-description']}>
+            {`This site a thought excerise on modern business management. I focus on Change Management, Digital Transformation, Process Design, and overall 
+            Organizational Flexibility. I provide an explanation of methods, templates for specific initiatives (employee-driven continuous improvement, 
+            monitoring for skill supply and demand), and suggestions for possible tools.`}
+        </p>
+        <div className={styles['separator']}></div>
+        <p className={styles['blog-description']}>{`In general, I look at business in terms of three major questions:`}</p>
              <ol className={styles['blog-bullet-wrap']}>
                 <li className={styles['blog-bullet']}>(1) What problem(s) need(s) solving? <em>(User Focus)</em></li>
                 <li className={styles['blog-bullet']}>(2) Who will be involved? <em>{`(People & Partnerships)`}</em></li> 
                 <li className={styles['blog-bullet']}>(3) How will we do it? <em>(Processes, Data, Tools)</em></li>
              </ol>
-        
 
         <p className={styles['blog-description']}>
             {`The longer-term effects of Covid are taking shape. We see continued labor shortages caused by a mix of factors - 
@@ -37,12 +42,6 @@ return (
         <p className={styles['blog-description']}>
             {`New companies aren't building out like Google into new services, they're doing something well and building that up with good partnerships. Big companies
             are figuring out how to stay competitive, and everyone is chasing insulation without the costs of vertical integration.`}
-        </p>
-
-        <p className={styles['blog-description']}>
-            {`This site a thought excerise on modern business management. I focus on Change Management, Digital Transformation, Process Design, and overall 
-            Organizational Flexibility, including methods `}<em>and</em>{`tools to achieve and maintain a modern organizational structure with employee-driven
-            continuous improvement, modern tools, monitoring for skill supply and demand, and more.`}
         </p>
 
     </div>

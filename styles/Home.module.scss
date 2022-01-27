@@ -41,6 +41,7 @@
 
 .blog-container {
   display: none;
+  overflow: hidden;
 
   @include for-desktop-up {
     display: flex;

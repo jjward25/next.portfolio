@@ -22,10 +22,10 @@ return (
             <TabList>
                 <Tab>Overview</Tab>
                 <Tab>{`Core Functions & Prioritization`}</Tab>
-                <Tab>{`People Management`}</Tab>
                 <Tab>{`Processes & Tools`}</Tab>
-                <Tab>{`Data Management`}</Tab>
+                <Tab>{`People Management`}</Tab>
                 <Tab>{`Partnerships & Strategy`}</Tab>
+                <Tab>{`Data Management`}</Tab>
                 <Tab>{`All Initiatives`}</Tab>
                 <Tab>{`Other`}</Tab>
             </TabList>
@@ -34,13 +34,13 @@ return (
 
             <TabPanel><BlogCoreFunctions/></TabPanel>
 
-            <TabPanel><BlogPeople/></TabPanel>
-
             <TabPanel><BlogProcess/></TabPanel>
 
-            <TabPanel><BlogData/></TabPanel>
+            <TabPanel><BlogPeople/></TabPanel>
 
             <TabPanel><BlogPartnerships/></TabPanel>
+
+            <TabPanel><BlogData/></TabPanel>
 
             <TabPanel><BlogAll/></TabPanel>
 

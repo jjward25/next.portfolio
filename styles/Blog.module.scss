@@ -16,7 +16,7 @@
   margin: 5.5vh 2vw;
 }
 .blog-title {
-  font-size: 2vw;
+  font-size: 1.75vw;
   font-weight: 500;
   margin: 7vh 0 1vh;
   text-decoration: underline solid black 3px;
@@ -32,4 +32,10 @@
   .blog-bullet {
     list-style: none;
   }
+}
+/***** GENERAL *****/
+.separator {
+  height: 1vh;
+  width: 25%;
+  border-bottom: 1px solid #323255;
 }
