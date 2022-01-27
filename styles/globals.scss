@@ -26,14 +26,14 @@ a {
     width: 75vw;
     height: auto;
     display: flex;
-    height: 11vh;
+    height: 5.5vh;
   }
 
   &__tab {
     position: relative;
     display: inline-block;
     min-height: 100%;
-    width: 9.375vw;
+    width: auto;
     margin: 0;
     border: 1px solid black;
     list-style: none;

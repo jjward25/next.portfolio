@@ -34,6 +34,7 @@
     }
     @include for-desktop-up {
       width: 100%;
+      margin: 3vh 0;
     }
   }
 
@@ -86,7 +87,7 @@
     }
     @include for-desktop-up {
       height: auto;
-      margin: 0;
+      margin: 2vh 0;
     }
   }
   .bc-blog-title {

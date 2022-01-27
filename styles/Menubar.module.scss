@@ -33,6 +33,7 @@
     left: 0;
     border-bottom: 1px solid black;
     border-radius: 0em;
+    height: 5.5vh;
   }
 }
 .bc-link {
@@ -53,7 +54,8 @@
     max-height: 11vh;
   }
   @include for-desktop-up {
-    font-size: 1.5em;
+    font-size: 0em;
+    margin: auto;
   }
 }
 
