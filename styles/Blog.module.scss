@@ -5,13 +5,15 @@
   width: 100%;
   max-height: 100vh;
   max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 /***** INSIDE TABS COMPONENT -- tabs css in Global SCSS *****/
 .blog-component-container {
   height: 89vh;
   width: 100%;
   max-width: 960px;
-  margin: 5.5vh 0;
+  margin: 5.5vh 2vw;
 }
 .blog-title {
   font-size: 2vw;
@@ -21,7 +23,7 @@
   color: #323255;
 }
 .blog-description {
-  font-size: 1.1vw;
+  font-size: 1vw;
 }
 
 .blog-bullet-wrap {
