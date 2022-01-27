@@ -1,19 +1,33 @@
 @import "mixins";
-
+/***** FULL BLOG WRAP *****/
 .blog-wrap {
   height: 100vh;
   width: 100%;
+  max-height: 100vh;
+  max-width: 100%;
 }
-
+/***** INSIDE TABS COMPONENT -- tabs css in Global SCSS *****/
 .blog-component-container {
-  height: 100%;
-  min-height: 89vh;
-  width: 75vw;
+  height: 89vh;
+  width: 100%;
+  max-width: 960px;
+  margin: 5.5vh 0;
 }
 .blog-title {
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-weight: 500;
-  padding: 1vh 2vw;
+  margin: 7vh 0 1vh;
   text-decoration: underline solid black 3px;
   color: #323255;
+}
+.blog-description {
+  font-size: 1.1vw;
+}
+
+.blog-bullet-wrap {
+  margin-top: 1.5vh;
+  padding-left: 2 5vw;
+  .blog-bullet {
+    list-style: none;
+  }
 }

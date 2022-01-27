@@ -18,6 +18,7 @@
   @include for-desktop-up {
     width: 100%;
     padding-bottom: 0;
+    max-height: 100vh;
   }
 
   .bc-photo-wrap {
