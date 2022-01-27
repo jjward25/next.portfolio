@@ -40,11 +40,10 @@
 }
 
 .blog-container {
-  height: 0;
-  width: 0;
-  overflow: hidden;
+  display: none;
 
   @include for-desktop-up {
+    display: flex;
     width: 100%;
     max-width: 75vw;
     height: 100vh;
