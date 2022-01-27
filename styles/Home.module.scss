@@ -40,7 +40,13 @@
 }
 
 .blog-container {
-  width: 100%;
-  max-width: 75vw;
-  height: 100vh;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+
+  @include for-desktop-up {
+    width: 100%;
+    max-width: 75vw;
+    height: 100vh;
+  }
 }
