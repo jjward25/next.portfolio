@@ -5,11 +5,9 @@ return (
 
     <div className={styles['blog-component-container']}>
         
-        <div className={styles['blog-title']}>All Initiative Posts</div>
+        <div className={styles['blog-title']}>All Templates and Case Studies</div>
 
-        <p className={styles['blog-description']}>
-            
-        </p>
+
 
     </div>
 )};

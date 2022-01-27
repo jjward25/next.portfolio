@@ -13,7 +13,7 @@ return (
         </p>
 
         <p className={styles['blog-description']}>
-            {`The templates and case studies in this section cover issues like monitoring skill supply, designing scalable processes and org charts, and 
+            {`The templates and case studies in this section cover operations monitoring, issues like monitoring skill supply, designing scalable processes and org charts, and 
             leveraging modern tools and tech for responsible automation.`}
         </p>
 
