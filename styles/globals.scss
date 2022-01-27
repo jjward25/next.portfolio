@@ -14,3 +14,70 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/***** TAB IMPORT *****/
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+
+  &__tab-list {
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 0;
+    width: 75vw;
+    height: auto;
+    display: flex;
+    height: 11vh;
+  }
+
+  &__tab {
+    position: relative;
+    display: inline-block;
+    min-height: 100%;
+    width: 9.375vw;
+    margin: 0;
+    border: 1px solid black;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1vw;
+    background-color: #323255;
+    color: white;
+
+    &--selected {
+      background-color: #b19cd9;
+      border-color: #aaa;
+      color: #323255;
+      border-radius: 1px 1px 0 0;
+      outline: none;
+      font-weight: 600;
+    }
+
+    &--disabled {
+      color: GrayText;
+      cursor: default;
+    }
+
+    &:focus {
+      outline: none;
+
+      &:after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        left: -4px;
+        right: -4px;
+        bottom: -5px;
+        background: #fff;
+      }
+    }
+  }
+
+  &__tab-panel {
+    display: none;
+
+    &--selected {
+      display: block;
+    }
+  }
+}

@@ -1,7 +1,8 @@
 import Head from 'next/head' 
 import styles from '../styles/Home.module.scss'
-import Menubar from '../components/menubar'
-import Bizcard from '../components/bizcard'
+import Menubar from '../components/main-menubar'
+import Bizcard from '../components/main-bizcard'
+import Blog from '../components/blog'
 
 export default function Home() {
   return (
@@ -14,11 +15,13 @@ export default function Home() {
       </Head>
 
       <main className={styles['main']}>
-        <div className={styles['mobile-wrap']}>
+        <div className={styles['mobile-container']}>
           <Menubar/>
           <Bizcard/>
         </div>
-        <div className={styles['blog-wrap']}></div>
+        <div className={styles['blog-container']}>
+          <Blog/>
+        </div>
       </main>
     </div>
   )

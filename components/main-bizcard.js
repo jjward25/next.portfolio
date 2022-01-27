@@ -1,6 +1,6 @@
 import styles from '../styles/Bizcard.module.scss';
 import Image from 'next/image';
-import Skillbar from './skillbar'
+import Skillbar from './main-skillbar'
 
 
 export default function Bizcard() {
