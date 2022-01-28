@@ -17,6 +17,7 @@
   flex-direction: column;
   height: auto;
   width: 47vw;
+  max-width: 1200px;
 }
 .blog-component-container {
   height: auto;
@@ -34,7 +35,7 @@
   color: #323255;
 }
 .blog-description {
-  font-size: 0.9vw;
+  font-size: 0.85vw;
 }
 
 .blog-bullet-wrap {
@@ -49,19 +50,21 @@
 
 .blog-right-sidebar {
   width: 23vw;
-  height: 94.5vh;
+  min-height: 94.5vh;
   display: flex;
   flex-direction: column;
   margin-left: 2vw;
-  max-width: 500px;
+  max-width: calc(1800px - 1128px);
   background-color: rgb(248, 249, 250);
+  padding-top: 2vh;
 }
 .blog-overview-image {
   position: relative;
   align-self: center;
-  width: 20vw;
-  height: 21vw;
+  width: 19vw;
+  height: 21.5vw;
   max-height: 25vw;
+  max-width: 552px;
 }
 .blog-image-description {
   padding: 0 1.5vw;
@@ -76,8 +79,11 @@
   display: flex;
   width: 75vw;
   max-width: 75vw;
-  max-height: 100vh;
+
   padding: 5.5vh 0 0 2.5vw;
+  @include for-big-desktop-up {
+    max-width: 1800px;
+  }
 }
 
 /***** GENERAL *****/

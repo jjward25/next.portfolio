@@ -35,6 +35,11 @@
     border-radius: 0em;
     height: 5.5vh;
   }
+  @include for-big-desktop-up {
+    position: relative;
+    width: 20vw;
+    max-width: 600px;
+  }
 }
 .bc-link {
   display: flex;

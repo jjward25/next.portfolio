@@ -20,6 +20,9 @@
     padding-bottom: 0;
     max-height: 100vh;
   }
+  @include for-big-desktop-up {
+    margin-top: 50px;
+  }
 
   .bc-photo-wrap {
     position: relative;
@@ -64,6 +67,9 @@
     }
     @include for-desktop-up {
       left: calc(12.5vw - 7vh);
+    }
+    @include for-big-desktop-up {
+      left: calc(300px - 7vh);
     }
   }
 
