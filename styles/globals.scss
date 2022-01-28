@@ -21,6 +21,9 @@ a {
   overflow-x: hidden;
   overflow-y: scroll;
   max-height: 100vh;
+  & ::-webkit-scrollbar {
+    display: none;
+  }
 
   @include for-desktop-up {
     -webkit-tap-highlight-color: transparent;
@@ -34,7 +37,7 @@ a {
       border-bottom: 1px solid black;
       margin: 0;
       padding: 0;
-      width: 100%;
+      width: 99.8%;
       max-width: 1800px;
       height: auto;
       display: flex;

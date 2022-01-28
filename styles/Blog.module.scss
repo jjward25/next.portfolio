@@ -33,9 +33,15 @@
   margin: 2vh 0 1vh;
   text-decoration: underline solid black 3px;
   color: #323255;
+  @include for-big-desktop-up {
+    font-size: 55px;
+  }
 }
 .blog-description {
   font-size: 0.85vw;
+  @include for-big-desktop-up {
+    font-size: 30px;
+  }
 }
 
 .blog-bullet-wrap {

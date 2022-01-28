@@ -51,7 +51,9 @@
 
 .blog-container {
   display: none;
-
+  & ::-webkit-scrollbar {
+    display: none;
+  }
   @include for-desktop-up {
     display: flex;
     overflow-x: hidden;
@@ -59,9 +61,6 @@
     width: 100%;
     max-width: 75vw;
     height: 100%;
-    & ::-webkit-scrollbar {
-      display: none;
-    }
   }
   @include for-big-desktop-up {
     width: 80vw;
