@@ -41,12 +41,16 @@
 
 .blog-container {
   display: none;
-  overflow: hidden;
 
   @include for-desktop-up {
     display: flex;
+    overflow-x: hidden;
+    overflow-y: scroll;
     width: 100%;
     max-width: 75vw;
     height: 100vh;
+    & ::-webkit-scrollbar {
+      display: none;
+    }
   }
 }

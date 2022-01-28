@@ -4,9 +4,9 @@ export default function BlogAll() {
 return (
 
     <div className={styles['blog-component-container']}>
-        
-        <div className={styles['blog-title']}>All Templates and Case Studies</div>
-
+        <div className={styles['blog-text-wrap']}>
+            <div className={styles['blog-title']}>All Templates and Case Studies</div>
+        </div>
 
 
     </div>

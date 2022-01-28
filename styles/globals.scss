@@ -18,7 +18,8 @@ a {
 
 /***** TAB IMPORT *****/
 .react-tabs {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
 
   @include for-desktop-up {
     -webkit-tap-highlight-color: transparent;
@@ -27,6 +28,7 @@ a {
 
     &__tab-list {
       position: fixed;
+      z-index: 2;
       top: 0;
       border-bottom: 1px solid black;
       margin: 0;
@@ -85,6 +87,7 @@ a {
 
       &--selected {
         display: block;
+        height: 100%;
       }
     }
   }
