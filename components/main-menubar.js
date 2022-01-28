@@ -6,7 +6,7 @@ export default function Menubar() {
     const text = 'Joseph.Ward@Outlook.com'  
     const copy = async () => {
       await navigator.clipboard.writeText(text);
-      alert('Text copied');
+      alert('Joseph.Ward@Outlook.com copied to clipboard');
     }
 
 return (
@@ -28,7 +28,7 @@ return (
                     Resume</p>
 
                     <p className={styles['bc-link']} id="email" onClick={copy} >
-                        <a alt="Email" target="_blank" rel="noreferrer" className={styles['bc-work-icon']}>
+                        <a alt="Email" target="_blank" rel="noreferrer" title="Copy E-Mail" className={styles['bc-work-icon']}>
                         <Image src="/icon-email.png" alt="Email Me" layout="fill"></Image></a>
                     E-Mail</p>   
                              
