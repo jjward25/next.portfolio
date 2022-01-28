@@ -20,6 +20,7 @@ a {
 .react-tabs {
   overflow-x: hidden;
   overflow-y: scroll;
+  max-height: 100vh;
 
   @include for-desktop-up {
     -webkit-tap-highlight-color: transparent;
@@ -37,6 +38,7 @@ a {
       height: auto;
       display: flex;
       height: 5.5vh;
+      background-color: white;
     }
 
     &__tab {
@@ -84,10 +86,18 @@ a {
 
     &__tab-panel {
       display: none;
+      max-height: 100%;
 
       &--selected {
         display: block;
-        height: 100%;
+        height: auto;
+        max-height: 100%;
+        max-width: 75vw;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        & ::-webkit-scrollbar {
+          display: none;
+        }
       }
     }
   }

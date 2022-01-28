@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function BlogOverview() {
 return (
 
-    <div className={styles['blog-component-container']}>
+
         
         <div className={styles['blog-overview-container']}>
 
@@ -62,7 +62,7 @@ return (
                     value their customers want. Legacy businesses should identify part(s) of their business that can hold their own (frequent or painful problem 
                     being solved, competitive advantage, undeveloped market, etc.).
                 <br/> <br/>
-                    Smart companies have been focusing on the client and consumer forever, but bloat is easy.  Digital Transformation is mostly about companies 
+                    Smart companies have been focusing on the client and consumer forever, but bloat is easy.  Digital Transformation (like Automation, RPA, Lean, Strategic Resiliency, etc.) is mostly about companies 
                     taking another look at things and narrowing focus.
                 </div>
 
@@ -70,6 +70,6 @@ return (
 
         </div>
 
-    </div>
+
 )};
 
