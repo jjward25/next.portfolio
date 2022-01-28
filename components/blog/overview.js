@@ -8,7 +8,7 @@ return (
         <div className={styles['blog-title']}>Modern Business</div>
         
         <p className={styles['blog-description']}>
-            {`This site a thought excerise on modern business management. I focus on Change Management, Digital Transformation, Process Design, and overall 
+            {`This site is a thought excerise on modern business management. I focus on Change Management, Digital Transformation, Process Design, and overall 
             Organizational Flexibility. I provide an explanation of methods, templates for specific initiatives (employee-driven continuous improvement, 
             monitoring for skill supply and demand), and suggestions for possible tools.`}
         </p>

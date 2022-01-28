@@ -37,7 +37,7 @@ return (
     </div>
 
     <div className={styles['personal-statement']}>
-      {`From running with the bulls in Pamplona to homeless outreach in Penn Station, I’ve always chased new experiences and perspectives. I firmly believe time is the most valuable thing in the world and I plan to make the most of it. I breath efficiency.`}
+      {`From running with the bulls in Pamplona to homeless outreach in Penn Station, I’ve always chased new experiences and perspectives. I firmly believe time is the most valuable thing in the world and I plan to make the most of it.`}
     </div>
     <div className={styles['personal-statement']}>
       {`I began my career with a rotational program that exposed me to Lean, SQL, Tableau, formal project management practices, and how people react when they think you’re telling them how to do their job.`}
