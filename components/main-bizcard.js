@@ -21,9 +21,8 @@ return (
       <div className={styles['bc-blog-title']}>Joe Ward</div>
       <div className={styles['bc-blog-subtitle']}><em>Operations Specialist</em></div>
       <li className={styles['bc-blog-link']}>Digital Transformation Posts</li>
-      <li className={styles['bc-blog-link']}>{`Data & Analytics Posts`}</li>
-      <li className={styles['bc-blog-link']}>Process Design Posts</li>
-      <li className={styles['bc-blog-link']}>{`Coding & Other`}</li>
+      <li className={styles['bc-blog-link']}><a href="https://medium.com/my-data">{`Data & Analytics Posts`}</a></li>
+      <li className={styles['bc-blog-link']}><a href="https://medium.com/business-today">Process Design Posts</a></li>
     </div>
 
     <div className={styles['service-summary']}>
