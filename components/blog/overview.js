@@ -10,7 +10,7 @@ export default function BlogOverview() {
 
             <div className={styles['blog-text-wrap']}>
 
-                <div className={styles['blog-title']}>Modern Business</div>
+                <div className={styles['blog-title']}>Overview</div>
 
                 <p className={styles['blog-description']}>
                     {`This site is one big case study focused on Change Management, Digital Transformation, Process Design, and overall 
