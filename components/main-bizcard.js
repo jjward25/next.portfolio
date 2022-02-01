@@ -1,6 +1,8 @@
 import styles from '../styles/Bizcard.module.scss';
 import Image from 'next/image';
 import Skillbar from './main-skillbar'
+import { Menu, Transition } from '@headlessui/react'
+
 
 
 export default function Bizcard() {
@@ -19,7 +21,6 @@ return (
     <div className={styles['bc-blog-wrap']}>
       <div className={styles['bc-blog-title']}>Joe Ward</div>
       <div className={styles['bc-blog-subtitle']}><em>Operations Specialist</em></div>
-      <li className={styles['bc-blog-link']}>Digital Transformation Posts</li>
     </div>
 
     <div className={styles['service-summary']}>
@@ -31,6 +32,28 @@ return (
       <div className={styles['service-tag']}>{`Process Design`}</div>
       <div className={styles['service-tag']}>{`Tooling`}</div>
     </div>
+
+    <div className={styles['bc-blog-menu-wrap']}><Menu><Menu.Button className={styles['bc-blog-button']}>Blog Menu</Menu.Button>
+      <Transition
+        enter="transition duration-100 ease-out"
+        enterFrom="transform scale-95 opacity-0"
+        enterTo="transform scale-100 opacity-100"
+        leave="transition duration-75 ease-out"
+        leaveFrom="transform scale-100 opacity-100"
+        leaveTo="transform scale-95 opacity-0"
+      >
+        <Menu.Items>
+          <Menu.Item className={styles['bc-blog-link']}><li>Overview</li></Menu.Item>
+          <Menu.Item className={styles['bc-blog-link']}><li>Core Functions</li></Menu.Item>
+          <Menu.Item className={styles['bc-blog-link']}><li>{`Processes & Tools`}</li></Menu.Item>
+          <Menu.Item className={styles['bc-blog-link']}><li>People Management</li></Menu.Item>
+          <Menu.Item className={styles['bc-blog-link']}><li>{`Partnerships & Strategy`}</li></Menu.Item>
+          <Menu.Item className={styles['bc-blog-link']}><li>Data Management</li></Menu.Item>
+          <Menu.Item className={styles['bc-blog-link']}><li>All Links</li></Menu.Item>
+          <Menu.Item className={styles['bc-blog-link']}><li>Other</li></Menu.Item>
+        </Menu.Items>
+        </Transition>
+      </Menu></div>
 
     <div className={styles['personal-statement']}>
       {`From running with the bulls in Pamplona to homeless outreach in Penn Station, I’ve always chased new experiences and perspectives. I firmly believe time is the most valuable thing in the world and I plan to make the most of it.`}
