@@ -139,7 +139,7 @@
     background-color: black;
     color: white;
     border-radius: 100px;
-    box-shadow: 1px 1px rgb(56, 34, 82);
+    border: 1px solid #bfd3e6;
     @include for-desktop-up {
       display: none;
     }
@@ -170,7 +170,7 @@
     justify-content: left;
     margin: 0;
     margin-bottom: 5vh;
-    background-color: #c8beda;
+    background-color: #bfd3e6;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 
