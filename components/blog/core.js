@@ -23,8 +23,8 @@ return (
             <p className={styles['blog-description']}>
                 {`The next step is an ongoing, indefinite process: honing in on your value to your clients and what your people
                 are good at.  Use Value Stream Maps to identify what tools, tasks, and other skills required throughout your company, then use those to when planning for
-                 the future, and to help employees drive the changes they want to see in their roles. From there you'll know where to find partners, and where you have 
-                advantages that you can build on.`}
+                 the future, and to help employees drive the changes they want to see in their roles. Get good, consistent feedback from client, partners, and employees. 
+                From there you'll know where to find partners, and where you have advantages that you can build on.`}
             </p>
 
         </div>
