@@ -6,14 +6,14 @@ export default function BlogOverview() {
 
 
 
-        <div className={styles['blog-overview-container']}>
+        <div className={styles['blog-component-container']}>
 
             <div className={styles['blog-text-wrap']}>
 
                 <div className={styles['blog-title']}>Modern Business</div>
 
                 <p className={styles['blog-description']}>
-                    {`This site is a thought excerise on modern business management, focused on Change Management, Digital Transformation, Process Design, and overall 
+                    {`This site is one big case study, focused on Change Management, Digital Transformation, Process Design, and overall 
                     Organizational Flexibility. I provide my thoughts, templates for specific initiatives (employee-driven continuous improvement, 
                     monitoring for skill supply and demand), and suggestions for possible tools.`}
                 </p>

@@ -11,8 +11,7 @@ return (
 
             <p className={styles['blog-description']}>
                 {`Your people only use SQL, but do any of them have past experience with Python, or Tableau? Have they gone through a transformation process that another
-                team is starting and have an interest in transitioning to project management? Do you track that after hiring? How do you decide when to sunset a process 
-                or product?  And where do those resources go?`}
+                team is starting? Do you track that after hiring? How do you decide when to sunset a process or product?  And where do those resources go?`}
             </p>
 
             <p className={styles['blog-description']}>

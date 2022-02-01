@@ -10,8 +10,12 @@ return (
             <div className={styles['blog-title']}>Data Management</div>
 
             <p className={styles['blog-description']}>
-                {`It's good to have an idea upfront of how your data will be collected (web forms, manual excel sheets, API connections, etc.), how it will be stored 
-                (SQL, Object-based, something more or less modern), and how it will be used (funneled into algorithms, visualized in reports).`}
+                {`It's good to have an idea upfront of how your data is collected (web forms, manual excel sheets, API connections, etc.), how it's stored 
+                (SQL, Object-based, something more or less modern), and how it's used (funneled into algorithms, visualized in reports).`}
+            </p>
+
+            <p className={styles['blog-description']}>
+                {`This will have an overview of higher-level best practices, and a few examples of reports and analyses.`}
             </p>
 
         </div>
