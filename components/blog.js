@@ -27,7 +27,7 @@ return (
                 <Tab>{`Partnerships & Strategy`}</Tab>
                 <Tab>{`Data Management`}</Tab>
                 <Tab>{`All Initiatives`}</Tab>
-                <Tab>{`Other`}</Tab>
+                <Tab><div className={styles['tab-other']}>{`Other`}</div></Tab>
             </TabList>
 
             <TabPanel><BlogOverview/></TabPanel>
