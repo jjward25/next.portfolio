@@ -80,7 +80,7 @@
     justify-content: space-between;
     margin: 0;
     text-align: left;
-    padding: 0 0 4vh 7vw;
+    padding: 0 0 0 7vw;
     height: auto;
     width: 100%;
     font-weight: 600;
@@ -102,7 +102,6 @@
     font-weight: 800;
     width: auto;
     height: auto;
-    margin: 1vh 0 1vh 0;
     display: flex;
     align-items: center;
 
@@ -116,7 +115,7 @@
     }
   }
   .bc-blog-subtitle {
-    margin-bottom: 3vh;
+    margin: 2.5vh 0 4vh;
 
     @include for-tablet-portrait-up {
       text-align: center;
