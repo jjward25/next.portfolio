@@ -26,18 +26,8 @@ return (
                     </ol>
 
                 <p className={styles['blog-description']}>
-                    {`The longer-term effects of Covid are taking shape. We see continued labor shortages caused by a mix of factors - 
-                    resignations, benefits, immigration - that are compounding supply chain woes.`}
-                </p>
-
-                <p className={styles['blog-description']}>
-                    {`These covid forces - combined with the existing market forces - are driving companies to focus on core functions as much as possible. 
-                    Automation insulates companies from human capital costs, and focusing on core functions gives you less to worry about in your supply chain.`}
-                </p>
-
-                <p className={styles['blog-description']}>
                     {`2022's Digital Transformation trend is about insulation. Black Swans are inevitable, and focusing on core functions, automating anything monotonous, and making the right strategic partners is smart.
-                    Companies are narrowing their priorities and focusing on their most profitable niche, then making partnerships to maximize that value.`}
+                    Many companies are narrowing their priorities and focusing on their most profitable niche, then making partnerships to maximize that value.`}
                     
                 <p className={styles['blog-description']}></p>
                     {`Venture Capitalists are pouring money into PaaS and SaaS companies that basically serve as IoT gateways for their partners; facilitating 
