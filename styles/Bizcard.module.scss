@@ -126,7 +126,9 @@
     top: 0;
     margin-bottom: 2.5vh;
     width: 100%;
-    padding: 0 5vw;
+    @include for-tablet-portrait-up {
+      position: relative;
+    }
     @include for-desktop-up {
       display: none;
     }
@@ -140,27 +142,31 @@
     font-weight: 600;
     background-color: black;
     color: white;
-    border-radius: 100px;
     border: 1px solid #bfd3e6;
     @include for-desktop-up {
       display: none;
     }
   }
+  .bc-bloc-link-wrap {
+    background-color: white;
+  }
   .bc-blog-link {
-    margin: 1.5vh 0;
+    padding: 1vh 0;
+    line-height: 1.5em;
     padding-left: 1.5vw;
-    background-color: darkgray;
+    font-weight: 500;
+    background-color: #bfd3e6;
+
     &:hover {
       background-color: aliceblue;
     }
     @include for-tablet-portrait-up {
       padding-left: 10vw;
+      margin: 0;
       background-color: none;
     }
     @include for-desktop-up {
-      font-size: 0;
-      height: 0;
-      margin: 0;
+      display: none;
     }
   }
 

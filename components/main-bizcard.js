@@ -79,7 +79,7 @@ return (
         leaveFrom="transform scale-100 opacity-100"
         leaveTo="transform scale-95 opacity-0"
       >
-      <Menu.Items>
+      <Menu.Items className={styles['bc-block-link-wrap']}>
         <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogOverview/>)}>
           <li>Overview</li></Menu.Item>
         <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogCoreFunctions/>)}>
