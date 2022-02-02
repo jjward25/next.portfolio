@@ -121,8 +121,8 @@
       text-align: center;
     }
   }
-  .bc-blog-menu-wrap {
-    margin-bottom: 5vh;
+  .bc-mobile-blog-wrap {
+    margin-bottom: 2.5vh;
     width: 100%;
     padding: 0 5vw;
     @include for-desktop-up {
@@ -130,7 +130,10 @@
     }
   }
   .bc-blog-button {
+    position: -webkit-sticky;
+    position: sticky;
     height: 2.5em;
+    padding: 8px 0;
     width: 100%;
     text-align: center;
     font-size: 90%;

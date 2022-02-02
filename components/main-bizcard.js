@@ -11,8 +11,7 @@ import BlogPartnerships from './blog/partnerships';
 import BlogData from './blog/data';
 import BlogAll from './blog/all';
 import BlogOther from './blog/other';
-
-
+import "react-window";
 
 export default function Bizcard() {
 
@@ -69,7 +68,7 @@ return (
 
     <Skillbar/>
 
-    <div className={styles['bc-blog-menu-wrap']}>
+    <div className={styles['bc-mobile-blog-wrap']}>
       
       <Menu><Menu.Button className={styles['bc-blog-button']}>Blog Menu</Menu.Button>
       <Transition
