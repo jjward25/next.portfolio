@@ -78,7 +78,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0;
+    margin: 2.5vh 0;
     text-align: left;
     padding: 0 0 0 7vw;
     height: auto;
@@ -88,9 +88,9 @@
     color: rgb(8, 8, 39);
 
     @include for-tablet-portrait-up {
+      margin: 0 0 5vh 0;
       font-size: 1.5em;
       padding: 0;
-      margin-bottom: 5vh;
     }
     @include for-desktop-up {
       height: auto;
