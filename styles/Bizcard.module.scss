@@ -150,6 +150,7 @@
   }
   .bc-bloc-link-wrap {
     background-color: white;
+    border: none;
   }
   .bc-blog-link {
     padding: 1vh 0;
@@ -158,7 +159,8 @@
     font-weight: 500;
     background-color: #bfd3e6;
     border-radius: 0 8px 8px 0;
-    border: 1px solid black;
+    border-right: 0.5px solid lightgray;
+    border-bottom: 0.5px solid lightgray;
     &:hover {
       background-color: aliceblue;
     }
