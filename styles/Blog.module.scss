@@ -55,7 +55,10 @@
   }
 }
 .blog-description {
-  font-size: 1.1em;
+  font-size: 0.9em;
+  @include for-tablet-portrait-up {
+    font-size: 1.1em;
+  }
   @include for-big-desktop-up {
     font-size: 30px;
   }
