@@ -13,7 +13,7 @@
 /***** INSIDE TABS COMPONENT -- tabs css in Global SCSS *****/
 
 .blog-text-wrap {
-  max-width: 100%;
+  max-width: 90vw;
   @include for-desktop-up {
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
 .blog-component-container {
   display: flex;
   flex-direction: column;
-  margin-left: 5vw;
+  margin: 0 5vw;
   @include for-desktop-up {
     flex-direction: row;
     justify-content: space-between;
@@ -75,16 +75,19 @@
 /***** BLOG SIDEBAR *****/
 
 .blog-right-sidebar {
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
-  max-width: calc(1800px - 1128px);
   background-color: rgb(248, 249, 250);
   padding-top: 2vh;
+  @include for-tablet-portrait-up {
+    width: 90vw;
+  }
   @include for-desktop-up {
     width: 23vw;
     min-height: 94.5vh;
     margin-left: 2vw;
+    max-width: calc(1800px - 1128px);
   }
 }
 .blog-overview-image {
