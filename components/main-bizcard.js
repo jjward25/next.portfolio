@@ -2,15 +2,34 @@ import styles from '../styles/Bizcard.module.scss';
 import Image from 'next/image';
 import Skillbar from './main-skillbar'
 import { Menu, Transition } from '@headlessui/react'
+import { useState } from 'react';
+import BlogOverview from './blog/overview';
+import BlogCoreFunctions from './blog/core';
+import BlogProcess from './blog/process';
+import BlogPeople from './blog/people';
+import BlogPartnerships from './blog/partnerships';
+import BlogData from './blog/data';
+import BlogAll from './blog/all';
+import BlogOther from './blog/other';
 
 
 
 export default function Bizcard() {
 
+const [blog, setBlog] = useState([])
 
+function handleClick(blogElement) {
+  const blogNew = blogElement
+  setBlog({
+    ...blog,
+    ...blogNew
+  }) 
+  console.log(blog)
+}
 
 return (
   <div className={styles['business-card']}>
+
     <div className={styles['bc-photo-wrap']}>
       <div className={styles['bc-gear-img']}>
         <Image src="/icon-gear-clear.png" layout='fill' alt="gear" priority={true} objectFit='contain'></Image>
@@ -47,9 +66,12 @@ return (
     <div className={styles['personal-statement']}>
       {`From running with the bulls in Pamplona to homeless outreach in Penn Station, I’ve always chased new experiences and perspectives. I firmly believe time is the most valuable thing in the world and I plan to make the most of it.`}
     </div>
+
     <Skillbar/>
 
-    <div className={styles['bc-blog-menu-wrap']}><Menu><Menu.Button className={styles['bc-blog-button']}>Blog Menu</Menu.Button>
+    <div className={styles['bc-blog-menu-wrap']}>
+      
+      <Menu><Menu.Button className={styles['bc-blog-button']}>Blog Menu</Menu.Button>
       <Transition
         enter="transition duration-100 ease-out"
         enterFrom="transform scale-95 opacity-0"
@@ -58,29 +80,29 @@ return (
         leaveFrom="transform scale-100 opacity-100"
         leaveTo="transform scale-95 opacity-0"
       >
-        <Menu.Items>
-          <Menu.Item className={styles['bc-blog-link']}>
-            <li>Overview</li></Menu.Item>
-          <Menu.Item className={styles['bc-blog-link']}>
-            <li>Core Functions</li></Menu.Item>
-          <Menu.Item className={styles['bc-blog-link']}>
-            <li>{`Processes & Tools`}</li></Menu.Item>
-          <Menu.Item className={styles['bc-blog-link']}>
-            <li>People Management</li></Menu.Item>
-          <Menu.Item className={styles['bc-blog-link']}>
-            <li>{`Partnerships & Strategy`}</li></Menu.Item>
-          <Menu.Item className={styles['bc-blog-link']}>
-            <li>Data Management</li></Menu.Item>
-          <Menu.Item className={styles['bc-blog-link']}>
-            <li>All Links</li></Menu.Item>
-          <Menu.Item className={styles['bc-blog-link']}>
-            <li>Other</li></Menu.Item>
-        </Menu.Items>
-        </Transition>
+      <Menu.Items>
+        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogOverview/>)}>
+          <li>Overview</li></Menu.Item>
+        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogCoreFunctions/>)}>
+          <li>Core Functions</li></Menu.Item>
+        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogProcess/>)}>
+          <li>{`Processes & Tools`}</li></Menu.Item>
+        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogPeople/>)}>
+          <li>People Management</li></Menu.Item>
+        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogPartnerships/>)}>
+          <li>{`Partnerships & Strategy`}</li></Menu.Item>
+        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogData/>)}>
+          <li>Data Management</li></Menu.Item>
+        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogAll/>)}>
+          <li>All Links</li></Menu.Item>
+        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogOther/>)}>
+          <li>Other</li></Menu.Item>
+      </Menu.Items>
+      </Transition>
       </Menu></div>
 
       <div className={styles['mobile-blog-container']}>
-
+          {blog}
       </div>
   
   </div>
