@@ -13,7 +13,7 @@ return (
 
             <p className={styles['blog-description']}>
                 {`The goal now is to be as nimble as possible, able to adapt and ideally drive change.  This requires in-depth knowledge of 
-                what you do, and what you don't do.  This section covers how to know everything you need to know about your business.`}
+                what you do, and what you don't do.  This section covers one way to know what you need to know about your business.`}
             </p>
 
             <div className={styles['separator']}/>
