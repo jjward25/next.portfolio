@@ -64,14 +64,18 @@ a {
       background-color: #bfd3e6;
       color: black;
 
+      &:hover {
+        background-color: #c8beda;
+        color: #323255;
+      }
       @include for-big-desktop-up {
         font-size: 1.5vh;
         padding: auto;
       }
 
       &--selected {
-        background-color: #c8beda;
-        color: #323255;
+        background-color: #323255;
+        color: #bfd3e6;
         outline: none;
         font-weight: 600;
       }
