@@ -16,7 +16,7 @@ return (
             </p>
 
             <p className={styles['blog-description']}>
-                {`This will have an overview of higher-level best practices, and a few examples of reports and analyses.`}
+                {`This section will have some architectural case studies, as well as sample scripts and visualizations.`}
             </p>
 
         </div>
