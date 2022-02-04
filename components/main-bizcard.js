@@ -4,10 +4,8 @@ import Skillbar from './main-skillbar'
 import { Menu, Transition } from '@headlessui/react'
 import { useState } from 'react';
 import BlogOverview from './blog/overview';
-import BlogCoreFunctions from './blog/core';
 import BlogProcess from './blog/process';
 import BlogPeople from './blog/people';
-import BlogPartnerships from './blog/partnerships';
 import BlogData from './blog/data';
 import BlogOther from './blog/other';
 import "react-window";
@@ -81,16 +79,12 @@ return (
       <Menu.Items className={styles['bc-block-link-wrap']}>
         <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogOverview/>)}>
           <li>Overview</li></Menu.Item>
-        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogCoreFunctions/>)}>
-          <li>Core Functions</li></Menu.Item>
         <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogProcess/>)}>
           <li>{`Processes & Tools`}</li></Menu.Item>
         <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogPeople/>)}>
-          <li>People Management</li></Menu.Item>
-        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogPartnerships/>)}>
-          <li>{`Partnerships & Strategy`}</li></Menu.Item>
+          <li>{`People & Partners`}</li></Menu.Item>
         <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogData/>)}>
-          <li>Data Management</li></Menu.Item>
+          <li>{`Data & Analytics`}</li></Menu.Item>
         <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogOther/>)}>
           <li>Other</li></Menu.Item>
       </Menu.Items>
