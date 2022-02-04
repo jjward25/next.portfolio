@@ -13,7 +13,7 @@ return (
 
             <p className={styles['blog-description']}>
                 {`The goal now is to be as nimble as possible, able to adapt and ideally drive change.  This requires in-depth knowledge of 
-                what you do, and what you don't do.  This section covers one way to know what you need to know about your business.`}
+                what you do, and what you don't do.  This section covers one way to know what we need to know about our business and teams.`}
             </p>
 
             <div className={styles['separator']}/>
@@ -33,11 +33,15 @@ return (
                 <b>{`1.   Create Detailed Value Stream Maps (VSM)`}</b>{` for every team and every process.  Each VSM should capture a full process, and every process a 
                 team performs should be mapped. These VSMs will give us several key data points towards operational excellence:`}
             </p>  
-            <li className={styles['blog-list-item']}>{`A list of all tasks that teams perform, broken down into workflows that allow for comparison across processes and teams (including skills and tools used).`}</li>
-            <li className={styles['blog-list-item']}>{`Widget times that allow us to see which teams are performing similar tasks better and facilitate a sharing of best practices or tools`}</li>
+
+            <li className={styles['blog-list-item']}>{`A list of all tasks that teams perform, broken down into subtasks, illustrated in workflows that help identify KPIs.`}</li>
+
+            <li className={styles['blog-list-item']}>{`Currest State metrics: Widget times that allow us to see which teams are performing similar tasks better and facilitate 
+            a sharing of best practices or tools (or KPIs).  We can create Process-Task Matrixes so teams that perform similar work can set up time to consult with each other
+            on anything.`}</li>
+
             <li className={styles['blog-list-item']}>{`Institutional knowledge.  Track which employees work on core functions, innovations, 
-            procurement, and any other company-specific knowledge you want to keep track of ("Average IK Years in department X has dropped 50% this 
-            year - focus on retention!").`}</li>
+            procurement, and any other company-specific knowledge you want to keep track of.`}</li>
 
             <div className={styles['process-vsm-wrap']}>
                 <a className={styles['process-vsm']}>
@@ -49,18 +53,15 @@ return (
             </div>
 
             <p className={styles['blog-description']}>
-                {`That's basically it.  Value Stream Maps are an extremely under-leveraged tools that can even help in interviews.  You can use them to
+                {`That's basically it.  Value Stream Maps are an extremely under-leveraged tool that can even help in interviews.  You can use them to
                 talk candidates through the existing role, what they're familiar with, what they'd change... But operations are nebulous, it's hard data
-                to capture and even harder to maintain and make use of.  That's why what's important in the figure above isn't the visual process, it's the structured data 
+                to capture and even harder to maintain and make use of.  That's why what's important in the figure above isn't the visual map, it's the structured data 
                 below each step.`}
             </p>  
             <p className={styles['blog-description']}>
-                {`In this example I tried to make a widely transferrable model of how to capture operations data.  By using object notation when defining
-                what you want to measure about your operations, you make your data collection scalable and flexible.  This data can then be visualized in 
+                {`In this example I tried to make a widely transferrable object model based on a simple ecommerce transaction.  By using object notation when defining
+                what you want to measure about your operations, you can make your data scalable and flexible.  This data can be visualized in 
                 cleaner front-end dashboards via well structured and permissioned APIs for continuous operational monitoring.`}
-            </p>
-            <p className={styles['blog-description']}>
-                {`Continuous monitoring you say?  Continuous monitoring I said.`}
             </p>
             <p className={styles['blog-description']}>
                 {`This data can be structured in Process-Task Matrixes that map out where we have syngergies or gaps in tasks and skills. Human Resources
@@ -70,8 +71,8 @@ return (
             <p className={styles['blog-description']}>
                 {`Most importantly, sitting down with teams and mapping things out WITH them gives employees the chance to point out their bottlenecks and 
                 pain points.  The biggest impediment to change is fear and comfort.  Fight that with clarity and excitement. We're going to listen to your problems, 
-                we're going to keep you informed about all the possible ways we might go with things, so as you automate or adapt your roles we can do it while 
-                upskilling and moving everything in the right direction.`}
+                and we're going to keep you informed about all the possible ways we might go with things so as you automate or adapt your roles we can  
+                upskill and set people up for success.`}
             </p>
             <p className={styles['blog-description']}>
                 {`Doing quarterly VSM reviews is good practice for enabling a culture of change. Asking employees what they like and don’t 
@@ -85,7 +86,7 @@ return (
             </p>
 
             <div className={styles['separator']}/>
-            <div className={styles['blog-subtitle']}><em>Summary</em></div>
+            <div className={styles['blog-subtitle']}><em>Summary of Approach</em></div>
 
             <p className={styles['blog-description']}>
                 {`Instead of a central team of Lean consultants descending on teams, make VSM reviews a part of normal quarterly manager-employee
@@ -95,11 +96,6 @@ return (
                 {`This also keeps changes and strategies more at the product/team level, letting people make decisions for themselves with input from a central 
                 team that reviews well-structured data for opportunities. Managers will be responsible for ensuring changes are in-line with company strategy 
                 and values.`}
-            </p>
-            <p className={styles['blog-description']}>
-                {`Also, don't be afraid to treat things like an estimate.  Be as accurate as you can (garbage-in-garbage-out). The exact tools and skills used should be listed, widget
-                velocity should be relatively accurate, but if you make small guesses here and there that's ok. Maybe another team has it figured out, just capture the picture as 
-                well as you can.`}
             </p>
         </div>
 
