@@ -9,7 +9,6 @@ import BlogProcess from './blog/process';
 import BlogPeople from './blog/people';
 import BlogPartnerships from './blog/partnerships';
 import BlogData from './blog/data';
-import BlogAll from './blog/all';
 import BlogOther from './blog/other';
 import "react-window";
 
@@ -92,8 +91,6 @@ return (
           <li>{`Partnerships & Strategy`}</li></Menu.Item>
         <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogData/>)}>
           <li>Data Management</li></Menu.Item>
-        <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogAll/>)}>
-          <li>All Links</li></Menu.Item>
         <Menu.Item className={styles['bc-blog-link']} onClick={()=>handleClick(<BlogOther/>)}>
           <li>Other</li></Menu.Item>
       </Menu.Items>

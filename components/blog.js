@@ -1,5 +1,4 @@
 import styles from '../styles/Blog.module.scss';
-import Bizcard from './main-bizcard';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import BlogOverview from './blog/overview';
@@ -8,7 +7,6 @@ import BlogPeople from './blog/people';
 import BlogProcess from './blog/process';
 import BlogData from './blog/data';
 import BlogPartnerships from './blog/partnerships';
-import BlogAll from './blog/all';
 import BlogOther from './blog/other';
 
 export default function Blog() {
@@ -26,7 +24,6 @@ return (
                 <Tab>{`People Management`}</Tab>
                 <Tab>{`Partnerships & Strategy`}</Tab>
                 <Tab>{`Data Management`}</Tab>
-                <Tab>{`All Initiatives`}</Tab>
                 <Tab><div className={styles['tab-other']}>{`Other`}</div></Tab>
             </TabList>
 
@@ -41,8 +38,6 @@ return (
             <TabPanel><BlogPartnerships/></TabPanel>
 
             <TabPanel><BlogData/></TabPanel>
-
-            <TabPanel><BlogAll/></TabPanel>
 
             <TabPanel><BlogOther/></TabPanel>
 

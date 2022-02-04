@@ -8,6 +8,7 @@ return (
         <div className={styles['blog-text-wrap']}>
 
             <div className={styles['blog-title']}>People Management</div>
+            <div className={styles['blog-subtitle']}><em>Communicating Change</em></div>
 
             <p className={styles['blog-description']}>
                 {`Your people only use SQL, but do any of them have past experience with Python, or Tableau? Have they gone through a transformation process that another

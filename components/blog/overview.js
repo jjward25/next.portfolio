@@ -14,11 +14,10 @@ export default function BlogOverview() {
 
                 <p className={styles['blog-description']}>
                     {`This site is one big case study focused on Change Management, Digital Transformation, Process Design, and overall 
-                    Organizational Flexibility. I provide my thoughts, templates for specific initiatives (employee-driven continuous improvement, 
-                    monitoring for skill supply and demand), and suggestions for possible tools.`}
+                    Organizational Flexibility.`}
                 </p>
-                <div className={styles['separator']}></div>
-                <p className={styles['blog-description']}>{`In general, this looks at business in terms of three major questions:`}</p>
+                <div className={styles['separator']}/>
+                <p className={styles['blog-description']}>{`For this purpose, let's look at business in terms of three major questions:`}</p>
                 <ol className={styles['blog-bullet-wrap']}>
                     <li className={styles['blog-bullet']}>(1) What problem(s) need(s) solving? <em>(User Focus)</em></li>
                     <li className={styles['blog-bullet']}>(2) Who will be involved? <em>{`(People & Partnerships)`}</em></li>

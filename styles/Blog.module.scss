@@ -15,6 +15,7 @@
 .blog-text-wrap {
   max-width: 90vw;
   @include for-desktop-up {
+    margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
     height: auto;
@@ -42,7 +43,7 @@
 }
 
 .blog-title {
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 500;
   margin: 2vh 0 1vh;
   text-decoration: underline solid black 3px;
@@ -54,6 +55,16 @@
     font-size: 55px;
   }
 }
+.blog-subtitle {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: 2vh 0 1vh;
+  color: #c8beda;
+
+  @include for-big-desktop-up {
+    font-size: 40px;
+  }
+}
 .blog-description {
   font-size: 0.9em;
   @include for-tablet-portrait-up {
@@ -63,7 +74,10 @@
     font-size: 30px;
   }
 }
-
+.blog-list-item {
+  margin-left: 1.5vw;
+  margin-bottom: 2vh;
+}
 .blog-bullet-wrap {
   margin-top: 1.5vh;
   padding-left: 2 5vw;
@@ -118,4 +132,30 @@
   height: 1vh;
   width: 25%;
   border-bottom: 1px solid #323255;
+}
+
+/***** BLOG SPECIFIC *****/
+.process-scorecard-wrap {
+  width: 35vw;
+  height: 20vw;
+  position: relative;
+  margin: 1.5vh auto;
+}
+.process-vsm-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.process-vsm {
+  width: 30vw;
+  height: 22.5vw;
+  position: relative;
+  margin: 1.5vh 0;
+}
+.process-vsm-object {
+  width: 15vw;
+  height: 15vw;
+  position: relative;
+  margin: auto 0;
+  border: 1px solid lightgrey;
 }

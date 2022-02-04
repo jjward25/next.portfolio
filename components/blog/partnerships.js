@@ -8,6 +8,7 @@ return (
         <div className={styles['blog-text-wrap']}>
 
             <div className={styles['blog-title']}>{`Partnerships & Macro-Strategy`}</div>
+            <div className={styles['blog-subtitle']}><em>Filling in the Gaps</em></div>
 
             <p className={styles['blog-description']}>
                 {`When you know what you do and how you do it, it's about filling in the gaps.  Where are your biggest opportunities and what does it take to get there?

@@ -8,6 +8,7 @@ return (
         <div className={styles['blog-text-wrap']}>
            
             <div className={styles['blog-title']}>Data Management</div>
+            <div className={styles['blog-subtitle']}><em>Operations Support</em></div>
 
             <p className={styles['blog-description']}>
                 {`It's good to have an idea upfront of how your data is collected (web forms, manual excel sheets, API connections, etc.), how it's stored 
