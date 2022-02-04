@@ -96,7 +96,13 @@ return (
                 team that reviews well-structured data for opportunities. Managers will be responsible for ensuring changes are in-line with company strategy 
                 and values.`}
             </p>
+            <p className={styles['blog-description']}>
+                {`Also, don't be afraid to treat things like an estimate.  Be as accurate as you can (garbage-in-garbage-out). The exact tools and skills used should be listed, widget
+                velocity should be relatively accurate, but if you make small guesses here and there that's ok. Maybe another team has it figured out, just capture the picture as 
+                well as you can.`}
+            </p>
         </div>
+
 
     </div>
 )};
