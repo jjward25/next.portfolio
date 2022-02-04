@@ -14,7 +14,7 @@ export default function BlogOverview() {
 
                 <p className={styles['blog-description']}>
                     {`This site is one big case study focused on Change Management, Digital Transformation, Process Design, and overall 
-                    Organizational Flexibility.`}
+                    Organizational Flexibility.  Over time I'll add links to posts on operations case studies, project templates, and data visuals and scripts.`}
                 </p>
                 <div className={styles['separator']}/>
                 <p className={styles['blog-description']}>{`For this purpose, let's look at business in terms of three major questions:`}</p>
@@ -50,11 +50,8 @@ export default function BlogOverview() {
             
                 <p className={styles['blog-description']}>
                     {`What was your company founded for? What problems are you solving?  Are you good at that?  Would you be better at something else, 
-                    maybe with a little help? What other needs do your users have that you can meet?`}
-                    </p>
-                <p className={styles['blog-description']}>
-                    {`Plans may be useless but planning is essential.  Imagine how processes might work, dream up black swans, and go with
-                    what makes the most all-around sense.`}
+                    maybe with a little help? What other needs do your users have that you can meet? Plans may be useless but planning is essential.  Imagine how processes 
+                    might work, dream up black swans, and go with what makes the most all-around sense.`}
                 </p>
 
                 <p className={styles['blog-description']}>
@@ -65,7 +62,7 @@ export default function BlogOverview() {
                     {`Get good, consistent feedback from clients, existing partners, and employees. 
                     From there you'll know where to find partners, and where you have advantages that you can build on.`}
                 </p>
-                
+
             </div>
 
 
