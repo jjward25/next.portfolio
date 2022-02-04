@@ -13,8 +13,8 @@ export default function BlogOverview() {
                 <div className={styles['blog-title']}>Overview</div>
 
                 <p className={styles['blog-description']}>
-                    {`This site is one big case study focused on Change Management, Digital Transformation, Process Design, and overall 
-                    Organizational Flexibility.  Over time I'll add links to posts on operations case studies, project templates, and data visuals and scripts.`}
+                    <em>{`This site is one big case study focused on change management, Digital Transformation, and overall 
+                    organizational effectiveness.  Over time I'll add links to posts on case studies, project templates, and data visuals and scripts.`}</em>
                 </p>
                 <div className={styles['separator']}/>
                 <p className={styles['blog-description']}>{`For this purpose, let's look at business in terms of three major questions:`}</p>
@@ -25,8 +25,9 @@ export default function BlogOverview() {
                 </ol>
 
                 <p className={styles['blog-description']}>
-                    {`2022's Digital Transformation trend is about insulation. Black Swans are inevitable, and focusing on core functions, automating anything monotonous, and making the right strategic partners is smart.
-                    Many companies are narrowing their priorities and focusing on their most profitable niche, then making partnerships to maximize that value.`}
+                    {`2022's Digital Transformation trend is about insulation. Black Swans are inevitable, and focusing on core functions, automating anything monotonous, and 
+                    making the right strategic partners is smart. Many companies are narrowing their priorities and focusing on their most profitable niche, then making 
+                    partnerships to maximize that value.`}
 
                     <p className={styles['blog-description']}></p>
                     {`Venture Capitalists are pouring money into PaaS and SaaS companies that basically serve as IoT gateways for their partners; facilitating 
@@ -35,7 +36,11 @@ export default function BlogOverview() {
 
                 <p className={styles['blog-description']}>
                     {`New companies aren't building out like Google into new services, they're doing something well and building that up with good partnerships. Big companies
-                    are figuring out how to stay competitive, and everyone is chasing insulation without vertical integration. Maybe not monopolies, but companies are looking for their fiefdoms.`}
+                    are figuring out how to stay competitive, and everyone is chasing insulation without vertical integration. Maybe not monopolies, but companies are looking 
+                    for their fiefdoms.`}
+                </p>
+                <p className={styles['blog-description']}>
+                    {`In this blog we'll explore ways to automate different process and how to more broadly maintain organizational effectiveness with a culture that embraces change.`}
                 </p>
 
 
@@ -50,16 +55,16 @@ export default function BlogOverview() {
             
                 <p className={styles['blog-description']}>
                     {`What was your company founded for? What problems are you solving?  Are you good at that?  Would you be better at something else, 
-                    maybe with a little help? What other needs do your users have that you can meet? Plans may be useless but planning is essential.  Imagine how processes 
-                    might work, dream up black swans, and go with what makes the most all-around sense.`}
+                    maybe with a little help? What other needs do your users have that you can meet? Plans may be useless but planning is essential. Imagine how processes 
+                    might work, take some time to dream, and go with what makes the most all-around sense.`}
                 </p>
 
                 <p className={styles['blog-description']}>
                     {`The next step is an ongoing, indefinite process: honing in on your value to your clients and what your people
-                    are good at.  Use Value Stream Maps to identify what tools, tasks, and other skills are required throughout your company, then use those to when planning for
-                    the future, and to help employees drive the changes they want to see in their roles.`}</p>
+                    are good at.  I suggest using Value Stream Maps to identify what tools, tasks, and other skills are required throughout your company, then use those to when 
+                    planning for the future, and to help employees drive the changes they want to see in their roles.`}</p>
                     <p className={styles['blog-description']}>
-                    {`Get good, consistent feedback from clients, existing partners, and employees. 
+                    {`And always make sure you're geting good, consistent feedback from clients, existing partners, and employees. 
                     From there you'll know where to find partners, and where you have advantages that you can build on.`}
                 </p>
 
@@ -77,8 +82,8 @@ export default function BlogOverview() {
                     value their customers want. Legacy businesses should identify part(s) of their business that can hold their own (frequent or painful problem
                     being solved, competitive advantage, undeveloped market, etc.).
                     <br /> <br />
-                    Smart companies have been focusing on the client and consumer forever, but bloat is easy.  Digital Transformation (like Automation, RPA, Lean, Strategic Resiliency, etc.) is mostly about companies
-                    taking another look at things and narrowing focus.
+                    Smart companies have been focusing on the client and consumer forever, but bloat is easy.  Digital Transformation (like Automation, RPA, Lean, Strategic 
+                    Resiliency, etc.) is mostly about companies taking another look at things and narrowing focus.
                 </div>
 
             </div>
