@@ -45,10 +45,10 @@ return (
 
             <div className={styles['process-vsm-wrap']}>
                 <a className={styles['process-vsm']}>
-                    <Image src="/process-vsm.png" layout='fill' alt="scorecard"/>
+                    <Image src="/process-vsm.png" layout='fill' alt="Value Stream Map"/>
                 </a>
                 <a className={styles['process-vsm-object']}>
-                    <Image src="/process-vsm-object.png" layout='fill' alt="scorecard"/>
+                    <Image src="/process-vsm-object.png" layout='fill' alt="VSM Object"/>
                 </a>
             </div>
 

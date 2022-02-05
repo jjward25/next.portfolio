@@ -141,7 +141,7 @@
   width: 35vw;
   height: 20vw;
   position: relative;
-  margin: 1.5vh auto;
+  margin: 1.5vh 0;
 }
 .process-vsm-wrap {
   display: flex;
@@ -151,12 +151,16 @@
 .process-vsm {
   width: 30vw;
   height: 22.5vw;
+  min-width: 250px;
+  min-height: 200px;
   position: relative;
   margin: 1.5vh 0;
 }
 .process-vsm-object {
   width: 15vw;
   height: 15vw;
+  min-width: 125px;
+  min-height: 125px;
   position: relative;
   margin: auto 0;
   border: 1px solid lightgrey;
