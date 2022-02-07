@@ -41,6 +41,7 @@ a {
       max-width: 1800px;
       display: flex;
       height: 5.5vh;
+      max-height: 5.5vh;
       background-color: white;
 
       @include for-big-desktop-up {

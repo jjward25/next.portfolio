@@ -6,6 +6,7 @@ return (
 
     <div className={styles['blog-component-container']}>
         
+
         <div className={styles['blog-text-wrap']}>
 
             <div className={styles['blog-title']}>{`Process Design & Tooling`}</div>
@@ -97,6 +98,17 @@ return (
                 team that reviews well-structured data for opportunities. Managers will be responsible for ensuring changes are in-line with company strategy 
                 and values.`}
             </p>
+
+        </div>
+
+
+        <div className={styles['blog-right-sidebar']}>
+
+                <div className={styles['blog-subtitle']} style={{paddingLeft:'1vw'}}>Related Links</div>
+
+                <a className={styles['sidebar-link']} target='_blank' title='Resource ReAllocation' alt='case study' href='https://public-docs2.s3.amazonaws.com/Case+Study+-+Resource+ReAssignment.pdf'>
+                    <li>{`Case Study: Re-Allocating Project Resources`}</li>
+                </a>
         </div>
 
 
