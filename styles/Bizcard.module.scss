@@ -145,6 +145,7 @@
     background-color: black;
     color: white;
     border-radius: 0 8px 8px 0;
+    outline: none;
     @include for-desktop-up {
       display: none;
     }
@@ -152,6 +153,7 @@
   .bc-block-link-wrap {
     background-color: white;
     border: none;
+    outline: none;
   }
   .bc-blog-link {
     padding: 0.5vh 0;
