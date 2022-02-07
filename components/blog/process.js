@@ -106,7 +106,7 @@ return (
 
                 <div className={styles['blog-subtitle']} style={{paddingLeft:'1vw'}}>Related Links</div>
 
-                <a className={styles['sidebar-link']} target='_blank' title='Resource ReAllocation' alt='case study' href='https://public-docs2.s3.amazonaws.com/Case+Study+-+Resource+ReAssignment.pdf'>
+                <a className={styles['sidebar-link']} target='_blank' rel='noreferrer' title='Resource ReAllocation' alt='case study' href='https://public-docs2.s3.amazonaws.com/Case+Study+-+Resource+ReAssignment.pdf'>
                     <li>{`Case Study: Re-Allocating Project Resources`}</li>
                 </a>
         </div>
