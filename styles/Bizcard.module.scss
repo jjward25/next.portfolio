@@ -123,6 +123,9 @@
     margin-bottom: 2.5vh;
     width: 100%;
     z-index: 5;
+    & ::selection {
+      border: none;
+    }
     @include for-tablet-portrait-up {
       position: relative;
     }
