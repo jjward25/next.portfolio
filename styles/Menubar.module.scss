@@ -23,7 +23,7 @@
     left: 10vw;
     width: 80vw;
     background-color: white;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     border-radius: 10em;
     justify-content: space-around;
     padding: 0 2.5vw;
@@ -34,11 +34,14 @@
     border-bottom: 1px solid black;
     border-radius: 0em;
     height: 5.5vh;
+    min-height: 5.5vh;
   }
   @include for-big-desktop-up {
     position: relative;
-    width: 20vw;
-    max-width: 600px;
+    width: 100%;
+    max-width: 700px;
+    min-height: 5.5vh;
+    border-bottom: 1px solid black;
   }
 }
 .bc-link {

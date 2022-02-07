@@ -20,13 +20,22 @@
     flex-direction: column;
     height: auto;
     width: 47vw;
-    max-width: 1200px;
+    max-width: 1400px;
+  }
+  @include for-big-desktop-up {
+    width: 1400px;
+  }
+  & ::-webkit-scrollbar {
+    display: none;
   }
 }
 .blog-component-container {
   display: flex;
   flex-direction: column;
   margin: 0 5vw;
+  & ::-webkit-scrollbar {
+    display: none;
+  }
   @include for-desktop-up {
     flex-direction: row;
     justify-content: space-between;
@@ -98,10 +107,10 @@
     width: 90vw;
   }
   @include for-desktop-up {
-    width: 23vw;
+    width: 25vw;
     min-height: 94.5vh;
     margin-left: 2vw;
-    max-width: calc(1800px - 1128px);
+    max-width: 700px;
   }
 }
 .blog-overview-image {
@@ -109,7 +118,7 @@
   align-self: center;
   width: 70vw;
   height: 75vw;
-  max-height: 75vw;
+  max-height: 600px;
   max-width: 552px;
   @include for-desktop-up {
     width: 19vw;
@@ -136,12 +145,14 @@
 
 /***** BLOG SPECIFIC *****/
 .process-scorecard-wrap {
-  min-width: 250px;
+  max-width: 80vw;
+  min-width: 280px;
   min-height: 180px;
   width: 35vw;
   height: 20vw;
   position: relative;
   margin: 1.5vh 0;
+  display: flex;
 }
 .process-vsm-wrap {
   display: flex;
@@ -151,16 +162,18 @@
 .process-vsm {
   width: 30vw;
   height: 22.5vw;
-  min-width: 250px;
-  min-height: 200px;
+  max-width: 80vw;
+  min-width: 280px;
+  min-height: 250px;
   position: relative;
   margin: 1.5vh 0;
 }
 .process-vsm-object {
   width: 15vw;
+  max-width: 80vw;
   height: 15vw;
-  min-width: 125px;
-  min-height: 125px;
+  min-width: 200px;
+  min-height: 200px;
   position: relative;
   margin: auto 0;
   border: 1px solid lightgrey;

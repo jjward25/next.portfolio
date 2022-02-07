@@ -39,13 +39,15 @@ a {
       padding: 0;
       width: 99.8%;
       max-width: 1800px;
-      height: auto;
       display: flex;
       height: 5.5vh;
       background-color: white;
+
       @include for-big-desktop-up {
-        width: 1800px;
+        max-width: 2100px;
         max-height: 5.5vh;
+        border-bottom: 1px solid black;
+        overflow: hidden;
       }
     }
 
@@ -55,7 +57,7 @@ a {
       min-height: 100%;
       width: auto;
       margin: 0;
-      border: 1px solid black;
+      border-right: 1px solid black;
       list-style: none;
       padding: 6px 12px;
       cursor: pointer;
@@ -103,6 +105,9 @@ a {
     &__tab-panel {
       display: none;
       max-height: 100%;
+      & ::-webkit-scrollbar {
+        display: none;
+      }
 
       &--selected {
         display: block;
@@ -111,10 +116,14 @@ a {
         max-width: 75vw;
         overflow-x: hidden;
         overflow-y: scroll;
+        border-right: 1px solid black;
         & ::-webkit-scrollbar {
           display: none;
         }
       }
     }
+  }
+  & ::-webkit-scrollbar {
+    display: none;
   }
 }
