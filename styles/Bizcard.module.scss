@@ -47,14 +47,17 @@
     top: 0;
     left: 0;
     height: 22vh;
-    width: 100%;
+    width: 85vw;
     animation: rotation 15s linear infinite;
     z-index: 1;
+    @include for-tablet-portrait-up {
+      width: 100%;
+    }
   }
   .bc-photo-img {
     position: absolute;
     z-index: 2;
-    width: 100%;
+    width: 85vw;
     height: 14vh;
     top: 4vh;
     border-radius: 20em;
@@ -62,6 +65,7 @@
     overflow: hidden;
 
     @include for-tablet-portrait-up {
+      width: 100%;
     }
     @include for-desktop-up {
     }
