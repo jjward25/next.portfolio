@@ -16,7 +16,7 @@ return (
                 {Other.map(card => {
                     return (
 
-                        <div className={styles['other-card-wrap']}>
+                        <div className={styles['other-card-wrap']} key={card.index}>
                     
                         <a href={card.link} target='_blank' rel='noreferrer' alt={card.title} title={card.title} className={styles['other-card-image']}>
                             <Image src={card.source} alt={card.title} layout="fill" />
@@ -33,7 +33,7 @@ return (
                         <div className={styles['other-tags-wrap']}>
                             {card.tags.map(tag => {
                                 return(
-                                <p className={styles['other-skill-tag']}>{tag}</p>
+                                <p className={styles['other-skill-tag']} key={tag.index}>{tag}</p>
                                 )
                             })}
                         </div>
