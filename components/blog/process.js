@@ -22,7 +22,7 @@ return (
             <p className={styles['blog-description']}>
                 {`It’s common practice for businesses to keep KPI Scorecards.  These are often 2-3 of the most important metrics for each team represented.`}
             </p>    
-            <a href="https://public.tableau.com/app/profile/kevin4365" target="_blank" className={styles['process-scorecard-wrap']}>
+            <a href="https://public.tableau.com/app/profile/kevin4365" target="_blank" rel='noreferrer' className={styles['process-scorecard-wrap']}>
                 <Image src="/process-scorecard.png" layout='fill' alt="scorecard"/>
             </a>
             <p className={styles['blog-description']}>
