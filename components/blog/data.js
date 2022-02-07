@@ -21,6 +21,15 @@ return (
 
         </div>
 
+        <div className={styles['blog-right-sidebar']}>
+
+                <div className={styles['blog-subtitle']} style={{paddingLeft:'1vw'}}>Related Links</div>
+
+                <a className={styles['sidebar-link']} target='_blank' rel='noreferrer' title='Real Time Analysis' alt='case study' href='https://public-docs2.s3.amazonaws.com/Real-Time+Data+Environment.png'>
+                    <li>{`Case Study: Realtime Data Analysis Architecture`}</li>
+                </a>
+        </div>
+
     </div>
 )};
 
