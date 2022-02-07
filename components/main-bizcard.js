@@ -54,13 +54,10 @@ return (
       {`I began my career with a rotational program that exposed me to Lean, SQL, Tableau, formal project management practices, and how people react when they think you’re telling them how to do their job.`}
     </div>
     <div className={styles['personal-statement']}>
-      {`I’ve since mapped and designed processes, identified KPIs, helped solve culture issues, and became a trusted partner for data and strategy, as well as for executing improvements.`}
+      {`I also love keeping up with science and tech advances, business and political theory, and generally look for new experiences in life, from running with the bulls in Pamplona to homeless outreach in Penn Station.`}
     </div>
     <div className={styles['personal-statement']}>
-      {`I enjoy sitting at the cross-section of analytics and operations, finding unique solutions for unique problems, and helping all kinds of teams reach their maximum potential, quickly.`}
-    </div>
-    <div className={styles['personal-statement']}>
-      {`From running with the bulls in Pamplona to homeless outreach in Penn Station, I’ve always chased new experiences and perspectives. I firmly believe time is the most valuable thing in the world and I like to find creative solutions that help people make better use of it.`}
+      {`Basically I can code but I'm not a coder, so instead I enjoy sitting at the cross-section of technology and operations, finding unique solutions for unique problems, and helping all kinds of teams reach their maximum potential.`}
     </div>
 
     <Skillbar/>
