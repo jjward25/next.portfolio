@@ -224,6 +224,9 @@
       font-size: 0.8vw;
       margin: 10px 10px;
     }
+    @include for-big-desktop-up {
+      font-size: 1em;
+    }
   }
 }
 /***** END OF BIZCARD *****/
@@ -274,6 +277,9 @@
   @include for-desktop-up {
     width: 4vw;
   }
+  @include for-big-desktop-up {
+    width: 75px;
+  }
 }
 .skill-item-wrap:hover {
   font-size: 0.8em;
@@ -303,6 +309,10 @@
     max-width: 3vw;
     height: 3vw;
     margin: auto;
+  }
+  @include for-big-desktop-up {
+    max-width: 60px;
+    height: 60px;
   }
 }
 .services-skill-button:hover {

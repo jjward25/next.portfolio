@@ -61,17 +61,17 @@
     font-size: 1.7vw;
   }
   @include for-big-desktop-up {
-    font-size: 55px;
+    font-size: 45px;
   }
 }
 .blog-subtitle {
   font-size: 1.3em;
   font-weight: 500;
-  margin: 2vh 0 1vh;
-  color: #c8beda;
+  margin: 0.5vh 0 0.5vh;
+  color: #9380b8;
 
   @include for-big-desktop-up {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 .blog-description {
@@ -80,7 +80,7 @@
     font-size: 1.1em;
   }
   @include for-big-desktop-up {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 .blog-list-item {
@@ -120,7 +120,7 @@
   color: #323255;
 
   @include for-big-desktop-up {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 .blog-overview-image {
@@ -144,6 +144,9 @@
     font-size: 0.7vw;
     font-weight: 700;
   }
+  @include for-big-desktop-up {
+    font-size: 1em;
+  }
 }
 
 /***** GENERAL *****/
@@ -163,6 +166,10 @@
   position: relative;
   margin: 1.5vh auto;
   display: flex;
+  @include for-big-desktop-up {
+    max-width: 1000px;
+    max-height: 500px;
+  }
 }
 .process-vsm-wrap {
   display: flex;
@@ -176,7 +183,11 @@
   min-width: 280px;
   min-height: 250px;
   position: relative;
-  margin: 1.5vh 0;
+  margin: 1.5vh auto;
+  @include for-big-desktop-up {
+    max-width: 1200px;
+    max-height: 800px;
+  }
 }
 .process-vsm-object {
   width: 15vw;
@@ -185,8 +196,12 @@
   min-width: 200px;
   min-height: 200px;
   position: relative;
-  margin: auto 0;
+  margin: auto;
   border: 1px solid lightgrey;
+  @include for-big-desktop-up {
+    max-width: 400px;
+    max-height: 400px;
+  }
 }
 /***** OTHER *****/
 .other-all-cards-wrap {
