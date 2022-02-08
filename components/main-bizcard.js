@@ -31,7 +31,7 @@ return (
         <Image src="/icon-gear-clear.png" layout='fill' alt="gear" priority={true} objectFit='contain'></Image>
       </div>
       <div className={styles['bc-photo-img']}>
-        <Image src="/selfie-circle.png" layout='fill' alt="selfie" priority={true} objectFit='contain'></Image>
+        <Image src="/selfie-glasses.png" layout='fill' alt="selfie" priority={true} objectFit='contain'></Image>
       </div>
     </div>
     
