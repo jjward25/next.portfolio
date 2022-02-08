@@ -53,10 +53,10 @@ return (
       {`I began my career with a rotational program that exposed me to Lean, SQL, Tableau, formal project management practices, and how people react when they think you’re telling them how to do their job.`}
     </div>
     <div className={styles['personal-statement']}>
-      {`I also love keeping up with science and tech advances, business and political theory, and generally look for new experiences in life, from running with the bulls in Pamplona to homeless outreach in Penn Station.`}
+      {`I also love keeping up with science and tech advancements, business and political theory, and generally look for new experiences in life - from running with the bulls in Pamplona to homeless outreach in Penn Station.`}
     </div>
     <div className={styles['personal-statement']}>
-      {`Basically I can code but I'm not a coder, so instead I enjoy sitting at the cross-section of technology and operations, finding unique solutions for unique problems, and helping all kinds of teams reach their maximum potential.`}
+      {`I can code but I'm not a coder, so instead I enjoy sitting at the cross-section of technology and operations, finding unique solutions for unique problems, and helping all kinds of teams reach their maximum potential.`}
     </div>
 
     <Skillbar/>
