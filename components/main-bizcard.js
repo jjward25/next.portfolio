@@ -44,10 +44,9 @@ return (
       <div className={styles['service-tag']}>{`Digital Transformation`}</div>
       <div className={styles['service-tag']}>{`Data & Analytics`}</div>
       <div className={styles['service-tag']}>{`Operational Efficiency`}</div>
-      <div className={styles['service-tag']}>{`Strategy`}</div>
+      <div className={styles['service-tag']}>{`Strategy & Tools`}</div>
       <div className={styles['service-tag']}>{`Change Management`}</div>
       <div className={styles['service-tag']}>{`Process Design`}</div>
-      <div className={styles['service-tag']}>{`Tooling`}</div>
     </div>
 
     <div className={styles['personal-statement']}>
