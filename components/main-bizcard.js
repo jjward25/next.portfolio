@@ -5,9 +5,7 @@ import { Menu, Transition } from "@headlessui/react";
 import { useState } from "react";
 import BlogOverview from "./blog/overview";
 import BlogProcess from "./blog/process";
-import BlogPeople from "./blog/people";
 import BlogData from "./blog/data";
-import BlogOther from "./blog/other";
 import "react-window";
 
 export default function Bizcard() {
@@ -104,12 +102,6 @@ export default function Bizcard() {
                 onClick={() => handleClick(<BlogData />)}
               >
                 <li>{`Data & Analytics`}</li>
-              </Menu.Item>
-              <Menu.Item
-                className={styles["bc-blog-link"]}
-                onClick={() => handleClick(<BlogOther />)}
-              >
-                <li>Other</li>
               </Menu.Item>
             </Menu.Items>
           </Transition>

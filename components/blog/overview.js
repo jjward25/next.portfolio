@@ -1,5 +1,6 @@
 import styles from "../../styles/Blog.module.scss";
 import Image from "next/image";
+import Other from "../../public/other.json";
 
 export default function BlogOverview() {
   return (
@@ -56,25 +57,43 @@ export default function BlogOverview() {
       </div>
 
       <div className={styles["blog-right-sidebar"]}>
-        <div className={styles["blog-overview-image"]}>
-          <Image
-            src="/ex-digital-transformation.png"
-            alt="Modern Business"
-            layout="fill"
-          />
+        <div className={styles["blog-subtitle"]} style={{ paddingLeft: "1vw" }}>
+          {`Personal Projects`}
         </div>
 
-        <div className={styles["blog-image-description"]}>
-          New businesses have a laser focus on serving niche customer needs and
-          growing from there, finding the right partners to help provide the
-          value their customers want. Legacy businesses should identify part(s)
-          of their business that can hold their own (frequent or painful problem
-          being solved, competitive advantage, undeveloped market, etc.).
-          <br /> <br />
-          Smart companies have been focusing on the client and consumer forever,
-          but bloat is easy. Digital Transformation (like Automation, RPA, Lean,
-          Strategic Resiliency, etc.) is mostly about companies taking another
-          look at things and narrowing focus.
+        <div className={styles["other-all-cards-wrap"]}>
+          {Other.map((card) => {
+            return (
+              <div className={styles["other-card-wrap"]} key={card.index}>
+                <a
+                  href={card.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  alt={card.title}
+                  title={card.title}
+                  className={styles["other-card-image"]}
+                >
+                  <Image src={card.source} alt={card.title} layout="fill" />
+                </a>
+
+                <p className={styles["other-card-title"]}>{card.title}</p>
+
+                <p className={styles["other-card-description"]}>
+                  {card.description}
+                </p>
+
+                <div className={styles["other-tags-wrap"]}>
+                  {card.tags.map((tag) => {
+                    return (
+                      <p className={styles["other-skill-tag"]} key={tag.index}>
+                        {tag}
+                      </p>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
