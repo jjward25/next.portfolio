@@ -85,6 +85,7 @@
     padding: 0 0 0 7vw;
     height: auto;
     width: 100%;
+    border: 1px solid black;
     @include for-tablet-portrait-up {
       margin: 0 0 5vh 0;
       padding: 0;
