@@ -90,7 +90,7 @@ export default function Menubar() {
         </a>
         LinkedIn
       </p>
-      <p className={styles["bc-link"]}>
+      <p className={styles["bc-link-desktop"]}>
         <a
           href="https://github.com/jjward25"
           title="Github"
@@ -108,7 +108,7 @@ export default function Menubar() {
         Github
       </p>
 
-      <p className={styles["bc-link"]}>
+      <p className={styles["bc-link-desktop"]}>
         <a
           href="https://public-docs2.s3.amazonaws.com/Joe+Ward.pdf"
           title="Resume"
