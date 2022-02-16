@@ -5,16 +5,27 @@ export default function BlogOverview() {
   return (
     <div className={styles["blog-component-container"]}>
       <div className={styles["blog-text-wrap"]}>
-        <div className={styles["blog-title"]}>Overview</div>
+        <div className={styles["desktop-title"]}>About Me</div>
+        <p className={styles["desktop-summary"]}>
+          {`From running with the bulls in Pamplona to homeless outreach in Penn Station, I've always valued time and sought new experiences. My career began in 
+          a rotational program that exposed me to Lean, SQL, Tableau, formal project management, and how people react when they think you’re telling them how to 
+          do their job.`}
+        </p>
+        <p className={styles["desktop-summary"]} style={{ marginTop: "1vh" }}>
+          {`I've continued to learn and listen.  I can code but I'm not a coder; instead I enjoy sitting at the cross-section of technology and operations, finding unique solutions for unique 
+          problems, and helping all kinds of teams reach their maximum potential.`}
+        </p>
+
+        <div className={styles["blog-title"]}>Site Overview</div>
 
         <p className={styles["blog-description"]}>
-          <em>{`This site is one big case study focused on change management, Digital Transformation, and overall 
-                    organizational effectiveness.  Over time I'll add links to posts on case studies, project templates, and data visuals and scripts.`}</em>
+          <em>{`This site is one big case study on operational efficiency, change management, analytics and task automation.  
+          Over time I'll add case studies, templates, data visuals and python scripts to the relevant pages.`}</em>
         </p>
         <div className={styles["separator"]} />
         <p
           className={styles["blog-description"]}
-        >{`For this purpose, let's look at business in terms of three major questions:`}</p>
+        >{`For the purposes of this site, let's think of business operations in terms of three major questions:`}</p>
         <ol className={styles["blog-bullet-wrap"]}>
           <li className={styles["blog-bullet"]}>
             (1) What problem(s) need(s) solving? <em>(User Focus)</em>
@@ -28,52 +39,19 @@ export default function BlogOverview() {
         </ol>
 
         <p className={styles["blog-description"]}>
-          {`2022's Digital Transformation trend is about insulation. Black Swans are inevitable, and focusing on core functions, automating anything monotonous, and 
-                    making the right strategic partners is smart. Many companies are narrowing their priorities and focusing on their most profitable niche, then making 
-                    partnerships to maximize that value.`}
-
-          <p className={styles["blog-description"]}></p>
-          {`Venture Capitalists are pouring money into PaaS and SaaS companies that basically serve as IoT gateways for their partners; facilitating 
-                    better communication and efficiency via better data management and visualization.`}
+          {`This blog is all about #3. What problem you're solving is not the question: the question here is how can your company solve the problem(s) in the best way(s), 
+          staff appropriately, with the right tools, while building the best relationships and innovating and iterating continuously.`}
         </p>
 
         <p className={styles["blog-description"]}>
-          {`New companies aren't building out like Google into new services, they're doing something well and building that up with good partnerships. Big companies
-                    are figuring out how to stay competitive, and everyone is chasing insulation without vertical integration. Maybe not monopolies, but companies are looking 
-                    for their fiefdoms.`}
-        </p>
-        <p className={styles["blog-description"]}>
-          {`In this blog we'll explore ways to automate different process and how to more broadly maintain organizational effectiveness with a culture that embraces change.`}
-        </p>
-
-        <div
-          className={styles["blog-title"]}
-        >{`Core Functions & Prioritizing Initiatives`}</div>
-
-        <div className={styles["blog-subtitle"]}>
-          <em>The Customer is Always Right</em>
-        </div>
-
-        <p className={styles["blog-description"]}>
-          {`Identifying your Core Functions is relatively straightforward...  What are your users paying for? What functions support that value prop?
-                    Protecting your supply chain (via split-sourcing, 4th party management) is vital, then the focus is mostly keeping those processes efficient and maintaining a user focus.`}
+          {`Every modern business leader has read countless stories of failures to innovate, and heard countless mutations of Silicon Valley's favorite mission statement ("fail fast"). 
+          In this blog we'll explore my operational approach, which is focused on achieving a level of internal awareness and leveraging that information in 
+          new and increased ways.`}
         </p>
 
         <p className={styles["blog-description"]}>
-          {`What was your company founded for? What problems are you solving?  Are you good at that?  Would you be better at something else, 
-                    maybe with a little help? What other needs do your users have that you can meet? Plans may be useless but planning is essential. Imagine how processes 
-                    might work, take some time to dream, and go with what makes the most all-around sense.`}
-        </p>
-
-        <p className={styles["blog-description"]}>
-          {`The next step is an ongoing, indefinite process: honing in on your value to your clients and what your people
-                    are good at.  I suggest using Value Stream Maps to identify what tools, tasks, and other skills are required throughout your company, then use those to when 
-                    planning for the future, and to help employees drive the changes they want to see in their roles.`}
-        </p>
-
-        <p className={styles["blog-description"]}>
-          {`And always make sure you're geting good, consistent feedback from clients, existing partners, and employees. 
-                    From there you'll know where to find partners, and where you have advantages that you can build on.`}
+          {`The Processes tab will explore ways to develop detailed organizational awareness and foster employee-driven change.  The Data tab explores ways to
+          automate specific tasks and other sample analyses.  Other displays side-projects and unrelated blog posts.`}
         </p>
       </div>
 
