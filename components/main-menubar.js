@@ -48,7 +48,7 @@ export default function Menubar() {
 
       <p className={styles["bc-link"]}>
         <a
-          href="https://public-docs2.s3.amazonaws.com/Joseph+Ward.pdf"
+          href="https://public-docs2.s3.amazonaws.com/Joe+Ward.pdf"
           title="Resume"
           alt="Resume"
           target="_blank"
@@ -90,12 +90,13 @@ export default function Menubar() {
         </a>
         LinkedIn
       </p>
-      <p className={styles["bc-link-desktop"]} id="email" onClick={copy}>
+      <p className={styles["bc-link"]}>
         <a
+          href="https://github.com/jjward25"
+          title="Github"
           alt="Github"
           target="_blank"
           rel="noreferrer"
-          title="Github"
           className={styles["bc-work-icon"]}
         >
           <Image
@@ -106,12 +107,14 @@ export default function Menubar() {
         </a>
         Github
       </p>
-      <p className={styles["bc-link-desktop"]} onClick={copy}>
+
+      <p className={styles["bc-link"]}>
         <a
+          href="https://public-docs2.s3.amazonaws.com/Joe+Ward.pdf"
+          title="Resume"
           alt="Resume"
           target="_blank"
           rel="noreferrer"
-          title="Resume"
           className={styles["bc-work-icon"]}
         >
           <Image src="/icon-cv-white.png" alt="Resume" layout="fill"></Image>
