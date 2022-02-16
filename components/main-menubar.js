@@ -132,7 +132,7 @@ export default function Menubar() {
             layout="fill"
           ></Image>
         </a>
-        Resume
+        Copy E-mail
       </p>
     </div>
   );
