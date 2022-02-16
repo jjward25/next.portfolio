@@ -145,11 +145,12 @@
     height: 2.5em;
     padding: 8px 0;
     margin-left: -1vw;
-    width: 86vw;
+    width: 87vw;
     text-align: center;
     font-size: $button-font-size;
     font-weight: $button-font-weight;
     background-color: $dark-blue;
+    border: 1px solid $dark-blue;
     color: white;
     outline: none;
     @include for-tablet-portrait-up {
