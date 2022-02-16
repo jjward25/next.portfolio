@@ -21,12 +21,18 @@ export default function BlogData() {
 
       <div className={styles["blog-right-sidebar"]}>
         <div className={styles["blog-subtitle"]} style={{ paddingLeft: "1vw" }}>
-          {`Scripts`}
+          {`Scripts & Analyses`}
         </div>
-
-        <div className={styles["blog-subtitle"]} style={{ paddingLeft: "1vw" }}>
-          {`Analyses`}
-        </div>
+        <a
+          className={styles["sidebar-link"]}
+          target="_blank"
+          rel="noreferrer"
+          title="Automate the Boring Stuff"
+          alt="case study"
+          href="https://github.com/jjward25/python.BoringStuff"
+        >
+          <li>{`Automate the Boring Stuff: A Collection of Useful Scripts`}</li>
+        </a>
 
         <div className={styles["blog-subtitle"]} style={{ paddingLeft: "1vw" }}>
           {`Case Studies & Templates`}
