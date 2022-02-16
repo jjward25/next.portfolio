@@ -37,7 +37,7 @@
 
   @include for-desktop-up {
     width: 20vw;
-    height: 100%;
+    height: 100vh;
     max-height: 100vh;
     min-height: 100vh;
     border-right: 2px solid $dark-blue;
