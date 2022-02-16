@@ -6,7 +6,7 @@
   max-height: 100vh;
   width: 100%;
   max-width: 2400px;
-  margin: auto;
+  margin: 0 auto;
   z-index: 1;
   @include for-big-desktop-up {
   }
@@ -23,7 +23,7 @@
   flex-direction: column;
 
   @include for-tablet-portrait-up {
-    max-width: 2800px;
+    max-width: 2400px;
   }
   @include for-desktop-up {
     flex-direction: row;
@@ -66,7 +66,7 @@
   }
   @include for-big-desktop-up {
     width: 80vw;
-    max-width: 2100px;
+    max-width: 1800px;
   }
   & ::-webkit-scrollbar {
     display: none;

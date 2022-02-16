@@ -9,7 +9,7 @@
   }
 }
 @mixin for-tablet-landscape-up {
-  @media (min-width: 900px) {
+  @media (min-width: 760px) {
     @content;
   }
 }
@@ -53,10 +53,10 @@ $h2-big-size: 35px;
 $h2-font-weight: 500;
 $body-font-size: 1em;
 $body-big-size: 20px;
-$button-font-size: 0.8em;
+$button-font-size: 0.75em;
 $button-font-weight: 500;
 
-$light-blue: #bfd3e6;
+$light-blue: #d2dee9;
 $dark-blue: #323255;
 $light-purple: #c8beda;
 $light-bg-color: rgb(248, 249, 250);

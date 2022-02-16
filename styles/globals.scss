@@ -55,7 +55,8 @@ a {
       );
 
       @include for-big-desktop-up {
-        max-width: 2100px;
+        width: 1200px;
+        padding: 0;
         overflow: hidden;
       }
     }
