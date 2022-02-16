@@ -15,7 +15,9 @@
 .blog-component-container {
   display: flex;
   flex-direction: column;
-  margin: 0 15vw 0 5vw;
+
+  margin: 0 20vw 0 5vw;
+
   & ::-webkit-scrollbar {
     display: none;
   }
@@ -113,7 +115,9 @@
     right: 0;
     width: 25vw;
     min-height: 100vh;
-    height: auto;
+
+    height: 100vh;
+
     margin-left: 2vw;
     max-width: 700px;
     border-left: 1px solid $light-purple;
@@ -235,16 +239,16 @@
 }
 /***** OTHER *****/
 .other-all-cards-wrap {
-  padding-top: 2.5vh;
+
+  margin: 2.5vh auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin: auto;
-  overflow-y: scroll;
+  justify-content: flex-start;
+  height: 100%;
+
 }
 .other-card-wrap {
-  width: 300px;
+  width: 280px;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -255,7 +259,7 @@
   margin: 0 auto 5vh auto;
 }
 .other-card-image {
-  width: 260px;
+  width: 240px;
   min-height: 200px;
   margin: 0 auto;
   position: relative;

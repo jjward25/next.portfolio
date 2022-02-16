@@ -183,9 +183,11 @@
   /**** Service Summary *****/
   .service-summary {
     height: auto;
-    width: 100%;
+
+    width: 85.5%;
     font-weight: $button-font-weight;
-    padding: 1vh 15vw 1vh 2.5vw;
+    padding: 1vh 1vw 1vh 2.5vw;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -194,6 +196,8 @@
     background-color: $light-blue;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    border-right: 1px solid $light-blue;
+    z-index: 6;
 
     @include for-tablet-portrait-up {
       justify-content: space-evenly;
@@ -317,7 +321,9 @@
 .personal-statement {
   text-align: left;
   font-size: $body-font-size;
-  padding: 0vh 15vw 0 5vw;
+
+  padding: 0vh 20vw 0 5vw;
+
   margin-bottom: 3vh;
 
   @include for-tablet-portrait-up {
