@@ -178,11 +178,13 @@
   display: none;
   @include for-desktop-up {
     display: flex;
+
     background-color: $light-bg-color;
     border: 1px solid $dark-blue;
     border-radius: 10px;
     padding: 5px 10px;
     font-size: $body-font-size;
+
   }
 }
 .process-scorecard-wrap {
