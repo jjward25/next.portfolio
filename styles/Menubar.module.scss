@@ -3,20 +3,18 @@
 
 .menubar-menu {
   position: fixed;
-  z-index: 5;
   right: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 36.5vh;
   max-height: 50vh;
-  font-size: 0.7em;
   text-align: center;
   width: 15vw;
   margin: 0;
-  background-color: transparent;
 
   @include for-tablet-portrait-up {
+    z-index: 5;
     min-height: auto;
     height: 11vh;
     flex-direction: row;
@@ -50,24 +48,28 @@
 .bc-link {
   display: flex;
   flex-direction: column;
-  font-size: 1em;
+  font-size: 0;
   color: black;
-  font-weight: 700;
   text-align: center;
   border: none;
   background-color: transparent;
   margin: 0.5vh 0;
+  transition-property: font-size;
+  transition-duration: 0.5s;
 
   @include for-tablet-portrait-up {
-    font-size: 2em;
     padding: 0;
     margin: auto 0;
     max-height: 11vh;
   }
   @include for-desktop-up {
-    font-size: 0em;
     margin: auto;
+    color: white;
   }
+}
+.bc-link:hover {
+  font-size: $button-font-size;
+  font-weight: $button-font-weight;
 }
 
 .bc-work-icon {
@@ -87,7 +89,7 @@
     width: 5vw;
   }
   @include for-desktop-up {
-    height: 2.5vw;
-    width: 2.5vw;
+    height: 2vw;
+    width: 2vw;
   }
 }

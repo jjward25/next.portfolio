@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 85vw;
+  width: 100vw;
   height: 100%;
   padding-bottom: 2.5vh;
   overflow: hidden;
@@ -20,6 +20,7 @@
     width: 100%;
     padding-bottom: 0;
     height: 100vh;
+    justify-content: space-evenly;
     margin-top: 1vh;
   }
   @include for-big-desktop-up {
@@ -85,13 +86,8 @@
     padding: 0 0 0 7vw;
     height: auto;
     width: 100%;
-    font-weight: 600;
-    font-size: 1.1em;
-    color: rgb(8, 8, 39);
-
     @include for-tablet-portrait-up {
       margin: 0 0 5vh 0;
-      font-size: 1.5em;
       padding: 0;
     }
     @include for-desktop-up {
@@ -100,39 +96,43 @@
     }
   }
   .bc-blog-title {
-    font-size: 2.1em;
-    font-weight: 800;
+    font-size: $h1-font-size;
+    font-weight: $h1-font-weight;
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
 
     @include for-tablet-portrait-up {
-      font-size: 2.5em;
       height: auto;
       margin: 0vh auto 2.5vh auto;
     }
     @include for-desktop-up {
       margin-bottom: 0;
-      font-size: 2em;
+      color: white;
     }
   }
   .bc-blog-subtitle {
     margin: 2.5vh 0 4vh;
-
+    font-size: $h2-font-size;
+    font-weight: $h2-font-weight;
     @include for-tablet-portrait-up {
       text-align: center;
+    }
+    @include for-desktop-up {
+      color: white;
     }
   }
   .bc-mobile-blog-wrap {
     position: sticky;
     top: 0;
     margin-bottom: 2.5vh;
+    padding-right: 15vw;
     width: 100%;
-    z-index: 5;
     outline: none;
     @include for-tablet-portrait-up {
       position: relative;
+      padding-right: 0;
     }
     @include for-desktop-up {
       display: none;
@@ -143,8 +143,8 @@
     padding: 8px 0;
     width: 100%;
     text-align: center;
-    font-size: 90%;
-    font-weight: 600;
+    font-size: $button-font-size;
+    font-weight: $button-font-weight;
     background-color: black;
     color: white;
     outline: none;
@@ -161,8 +161,9 @@
     padding: 0.5vh 0;
     line-height: 1.5em;
     padding-left: 1.5vw;
-    font-weight: 500;
-    background-color: #bfd3e6;
+    font-weight: $button-font-weight;
+    font-size: $button-font-size;
+    background-color: $light-blue;
     border-radius: 0 8px 8px 0;
     border-right: 1px solid #323255;
     border-bottom: 1px solid #323255;
@@ -182,15 +183,15 @@
   /**** Service Summary *****/
   .service-summary {
     height: auto;
-    width: 100vw;
-    font-weight: 500;
+    width: 100%;
+    font-weight: $button-font-weight;
     padding: 1vh 15vw 1vh 2.5vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    margin: 0;
+    margin-right: 15vw;
     margin-bottom: 5vh;
-    background-color: #bfd3e6;
+    background-color: $light-blue;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 
@@ -202,13 +203,13 @@
       width: 100%;
       padding: 1vh 0vw;
       justify-content: center;
-      margin: 1.5vh 0 0 0;
+      margin: 1.5vh 0 1.5vh 0;
     }
   }
   .service-tag {
     height: 2.2em;
     text-align: center;
-    font-size: 70%;
+    font-size: $button-font-size;
     padding: 4px 10px;
     background-color: black;
     color: white;
@@ -217,17 +218,13 @@
     box-shadow: 1px 1px rgb(56, 34, 82);
 
     @include for-tablet-portrait-up {
-      font-size: 115%;
+      font-size: $button-font-size;
       padding: 8px 12px;
       height: auto;
       margin: 5px 10px;
     }
     @include for-desktop-up {
-      font-size: 0.74vw;
       margin: 6px 10px;
-    }
-    @include for-big-desktop-up {
-      font-size: 1em;
     }
   }
 }
@@ -255,21 +252,20 @@
     justify-content: center;
     padding: 0;
     border-bottom: none;
-    margin: auto 0;
+    margin: 0 0 2.5vh 0;
   }
 }
 .skill-item-wrap {
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: auto;
   padding: 1vh 0;
   width: 50px;
   font-size: 0em;
   transition-property: font-size;
-  transition-duration: 1.5s;
+  transition-duration: 0.5s;
 
   @include for-tablet-portrait-up {
     height: auto;
@@ -277,7 +273,6 @@
   }
   @include for-desktop-up {
     width: 4vw;
-
     margin-right: 1vw;
   }
   @include for-big-desktop-up {
@@ -285,9 +280,9 @@
   }
 }
 .skill-item-wrap:hover {
-  font-size: 0.8em;
-  font-weight: 500;
-  margin: 0;
+  font-size: $button-font-size;
+  font-weight: $button-font-weight;
+  color: white;
 }
 
 .services-skill-button {
@@ -296,9 +291,8 @@
   width: 100%;
   max-width: 40px;
   margin: 0;
-  transition-property: height;
-  transition-duration: 1s;
-  border: 1px solid white;
+
+  border: 1px solid transparent;
   border-radius: 100px;
   overflow: hidden;
 
@@ -306,7 +300,7 @@
     max-width: 10vw;
     height: 10vw;
     margin: 2.5vh 0;
-    font-weight: 600;
+    font-weight: $button-font-weight;
   }
   @include for-desktop-up {
     max-width: 3vw;
@@ -318,19 +312,16 @@
     height: 60px;
   }
 }
-.services-skill-button:hover {
-  height: 0px;
-}
 
 /***** PERSONAL STATEMENT *****/
 .personal-statement {
   text-align: left;
-  font-size: 1em;
-  padding: 0vh 5vw;
+  font-size: $body-font-size;
+  padding: 0vh 15vw 0 5vw;
   margin-bottom: 3vh;
 
   @include for-tablet-portrait-up {
-    font-size: 115%;
+    padding: 0 5vw;
   }
   @include for-desktop-up {
     font-size: 0;
