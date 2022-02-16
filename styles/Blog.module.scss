@@ -245,9 +245,13 @@
 .other-all-cards-wrap {
   margin: 2.5vh auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: flex-start;
   height: 100%;
+  @include for-desktop-up {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }
 .other-card-wrap {
   width: 280px;

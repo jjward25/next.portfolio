@@ -128,14 +128,14 @@
     position: sticky;
     top: 0;
     margin-bottom: 2.5vh;
-    padding-right: 14vw;
-    width: 100%;
+    width: 86vw;
     outline: 0px;
     z-index: 4;
-    border: 0px solid black;
+
     @include for-tablet-portrait-up {
       position: relative;
       padding-right: 0;
+      width: 100%;
     }
     @include for-desktop-up {
       display: none;
@@ -144,13 +144,18 @@
   .bc-blog-button {
     height: 2.5em;
     padding: 8px 0;
-    width: 100%;
+    margin-left: -1vw;
+    width: 86vw;
     text-align: center;
     font-size: $button-font-size;
     font-weight: $button-font-weight;
-    background-color: black;
+    background-color: $dark-blue;
     color: white;
     outline: none;
+    @include for-tablet-portrait-up {
+      width: 100%;
+      margin-left: 0;
+    }
     @include for-desktop-up {
       display: none;
     }
@@ -168,10 +173,10 @@
     font-size: $button-font-size;
     background-color: $light-blue;
     border-radius: 0 8px 8px 0;
-    border-right: 1px solid #323255;
-    border-bottom: 1px solid #323255;
+    border-right: 1px dotted $dark-blue;
+    border-bottom: 1px dotted $dark-blue;
     &:hover {
-      background-color: aliceblue;
+      background-color: $light-blue;
     }
     @include for-tablet-portrait-up {
       padding-left: 10vw;
@@ -197,8 +202,8 @@
     margin-right: 15vw;
     margin-bottom: 5vh;
     background-color: $light-blue;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid $dark-blue;
+    border-bottom: 1px solid $dark-blue;
     border-right: 1px solid $light-blue;
     z-index: 5;
 
@@ -220,7 +225,7 @@
     text-align: center;
     font-size: $button-font-size;
     padding: 4px 10px;
-    background-color: black;
+    background-color: $dark-blue;
     color: white;
     border-radius: 100px;
     margin: 5px 5px;
