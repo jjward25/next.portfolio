@@ -21,14 +21,14 @@
     border-left: none;
 
     min-height: auto;
-    height: 11vh;
+    height: 10vh;
     flex-direction: row;
     right: auto;
     left: 10vw;
     width: 80vw;
-    background-color: white;
+
     border-bottom: 1px solid black;
-    border-radius: 10em;
+    border-radius: 0 0 10em 10em;
     justify-content: space-around;
     padding: 0 2.5vw;
   }
