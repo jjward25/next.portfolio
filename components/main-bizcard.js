@@ -17,6 +17,10 @@ export default function Bizcard() {
       ...blog,
       ...blogNew,
     });
+    window.scrollTo({
+      top: 1000,
+      behavior: "smooth",
+    });
     console.log(blog);
   }
 
