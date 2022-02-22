@@ -11,8 +11,8 @@ export default function BlogProcess() {
         </div>
 
         <p className={styles["blog-description"]}>
-          {`The goal now is to be as nimble as possible, able to adapt and ideally drive change.  This requires in-depth knowledge of 
-                what you do, and what you don't do.  This section covers one way to know what we need to know about our business and teams.`}
+          {`The goal now is to be as nimble as possible, quick to adapt and ideally able to drive change.  This requires in-depth knowledge of 
+                what you do, and what you don't do.  This page examines one way of knowing what we need to know about our business and teams.`}
         </p>
 
         <div className={styles["separator"]} />
