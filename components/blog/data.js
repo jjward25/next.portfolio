@@ -11,11 +11,11 @@ export default function BlogData() {
 
         <p className={styles["blog-description"]}>
           {`It's good to have an idea upfront of how your data is collected (web forms, manual excel sheets, API connections, etc.), how it's stored 
-                (SQL, Object-based, something more or less modern), and how it's used (funneled into algorithms, visualized in reports).`}
+                (SQL, Object-based, something less modern), and how it's used (funneled into algorithms, visualized in reports, public releases).`}
         </p>
         <p className={styles["blog-description"]}>
-          {`The links here are less structured than on the Process tab.  These are mostly one-off scripts and examples of specific types of analyses using different tools,
-            as opposed to case studies of a full process or detailed change management theories.`}
+          {`The links on this page are mostly one-off scripts and examples of specific types of analyses using different tools,
+            as opposed to the case studies on broader processes and theories on the Process page.`}
         </p>
       </div>
 
