@@ -14,8 +14,13 @@ export default function BlogData() {
                 (SQL, Object-based, something less modern), and how it's used (funneled into algorithms, visualized in reports, public releases).`}
         </p>
         <p className={styles["blog-description"]}>
-          {`The links on this page are mostly one-off scripts and examples of specific types of analyses using different tools,
-            as opposed to the case studies on broader processes and theories on the Process page.`}
+          {`These variables all impact what you're able to do, but more importantly, what you should focus on doing right now.  If you're manually inputting the same data in multiple 
+          places, or using manual forms (with or especially without digital data back-ups), or don't have KPIs supported by detailed process mapping, then you have some immediate 
+          opportunities to consider.`}
+        </p>
+        <p className={styles["blog-description"]}>
+          {`That said, the links on this page will mostly be one-off scripts for automating tasks and examples of specific types of analyses using different tools,
+            as opposed to the case studies on broader processes and theories you'll find on the Process page.`}
         </p>
       </div>
 

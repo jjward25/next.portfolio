@@ -7,12 +7,12 @@ export default function BlogProcess() {
       <div className={styles["blog-text-wrap"]}>
         <div className={styles["blog-title"]}>{`Process Design & Tooling`}</div>
         <div className={styles["blog-subtitle"]}>
-          <em>Enabling Safe Change via Operational Awareness</em>
+          <em>Continuous Improvement via Operational Awareness</em>
         </div>
 
         <p className={styles["blog-description"]}>
           {`The goal now is to be as nimble as possible, quick to adapt and ideally able to drive change.  This requires in-depth knowledge of 
-                what you do, and what you don't do.  This page examines one way of knowing what we need to know about our business and teams.`}
+                what you do, and what you don't do.  This page examines one way of knowing what we need to know about our businesses and teams.`}
         </p>
 
         <div className={styles["separator"]} />
