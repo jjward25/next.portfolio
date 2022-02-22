@@ -18,22 +18,6 @@ export default function BlogProcess() {
         <div className={styles["separator"]} />
 
         <p className={styles["blog-description"]}>
-          {`It’s common practice for businesses to keep KPI Scorecards.  These are often 2-3 of the most important metrics for each team represented.`}
-        </p>
-        <a
-          href="https://public.tableau.com/app/profile/kevin4365"
-          target="_blank"
-          rel="noreferrer"
-          className={styles["process-scorecard-wrap"]}
-        >
-          <Image src="/process-scorecard.png" layout="fill" alt="scorecard" />
-        </a>
-        <p className={styles["blog-description"]}>
-          {`We’ll use a similar approach, but this is all about internal ops: the processes, tools, skills, and data your people use to get things done and 
-                how to narrow down what exactly those are and should be.`}
-        </p>
-
-        <p className={styles["blog-description"]}>
           <b>{`1.   Create Detailed Value Stream Maps (VSM)`}</b>
           {` for every team and every process.  Each VSM should capture a full process, and every process a 
                 team performs should be mapped. These VSMs will give us several key data points towards operational excellence:`}
@@ -47,7 +31,7 @@ export default function BlogProcess() {
           className={styles["blog-list-item"]}
         >{`Currest State metrics: Widget times that allow us to see which teams are performing similar tasks better and facilitate 
             a sharing of best practices or tools (or KPIs).  We can create Process-Task Matrixes so teams that perform similar work can set up time to consult with each other
-            on anything.`}</li>
+            on anything at anytime.`}</li>
 
         <li
           className={styles["blog-list-item"]}
@@ -89,13 +73,17 @@ export default function BlogProcess() {
         </p>
         <p className={styles["blog-description"]}>
           {`Most importantly, sitting down with teams and mapping things out WITH them gives employees the chance to point out their bottlenecks and 
-                pain points.  The biggest impediment to change is fear and comfort.  Fight that with clarity and excitement. We're going to listen to your problems, 
-                and we're going to keep you informed about all the possible ways we might go with things so as you automate or adapt your roles we can  
-                upskill and set people up for success.`}
+                pain points and how they view things.  The biggest impediment to change is fear and comfort.  We can fight that with clarity and excitement. Let them own their own Process Maps, 
+                and make it a part of quarterly goal setting to review the process with managers (or even broader groups) and commit to improvements when possible.`}
+        </p>
+        <p className={styles["blog-description"]}>
+          {`If you listen to their problems and keep them informed about all the possible high level directions the company could take, then they can
+          automate or adapt their roles without fear. They can do it with a mind towards what will make them most valuable to the future state of the company.  Those interested can request
+          tuition payment for upskilling and everyone gets set up for success.`}
         </p>
         <p className={styles["blog-description"]}>
           {`Doing quarterly VSM reviews is good practice for enabling a culture of change. Asking employees what they like and don’t 
-                like about their jobs is valuable information by itself, and giving them the power to influence that change makes it worth everyone’s 
+                like about their jobs is valuable information, and giving them the power to influence that change makes is worth everyone’s 
                 time.`}
         </p>
         <p className={styles["blog-description"]}>
@@ -114,9 +102,8 @@ export default function BlogProcess() {
                 discussions.  Being consistent with these reviews and having them come from their own teams will make them more meaningful to employees.`}
         </p>
         <p className={styles["blog-description"]}>
-          {`This also keeps changes and strategies more at the product/team level, letting people make decisions for themselves with input from a central 
-                team that reviews well-structured data for opportunities. Managers will be responsible for ensuring changes are in-line with company strategy 
-                and values.`}
+          {`This also keeps changes and strategies more at the product/team level, letting people make decisions for themselves with broader corporate strategy in mind, and possibly with input 
+           input from a central team that reviews well-structured organization data for opportunities.`}
         </p>
       </div>
 
