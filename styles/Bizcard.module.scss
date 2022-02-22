@@ -142,16 +142,17 @@
     }
   }
   .bc-blog-button {
-    height: 2.5em;
-    padding: 8px 0;
+    height: 3.5em;
+    padding: 8px 0 8px 12px;
     margin-left: -1vw;
     width: 87vw;
-    text-align: center;
+    text-align: left;
     font-size: $button-font-size;
-    font-weight: $button-font-weight;
+    font-weight: $h1-font-weight;
     background-color: $dark-blue;
-    border: 1px solid $dark-blue;
+    border: 2px solid $dark-blue;
     color: white;
+    letter-spacing: 0.1em;
     outline: none;
     @include for-tablet-portrait-up {
       width: 100%;
@@ -168,14 +169,13 @@
   }
   .bc-blog-link {
     padding: 0.5vh 0;
-    line-height: 1.5em;
+    line-height: 2.5em;
     padding-left: 1.5vw;
     font-weight: $button-font-weight;
     font-size: $button-font-size;
-    background-color: $light-blue;
-    border-radius: 0 8px 8px 0;
-    border-right: 1px dotted $dark-blue;
-    border-bottom: 1px dotted $dark-blue;
+    background-color: $light-purple;
+
+    border-bottom: 1px solid $light-bg-color;
     &:hover {
       background-color: $light-blue;
     }
@@ -226,7 +226,7 @@
     text-align: center;
     font-size: $button-font-size;
     padding: 4px 10px;
-    background-color: $light-blue;
+    background-color: $light-purple;
     color: $dark-blue;
     border-radius: 100px;
     margin: 5px 5px;
