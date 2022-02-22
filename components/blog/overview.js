@@ -45,7 +45,7 @@ export default function BlogOverview() {
         </p>
 
         <p className={styles["blog-description"]}>
-          {`Every modern business leader has read countless stories of failures to innovate, and heard countless mutations of Silicon Valley's favorite mission statement ("fail fast"). 
+          {`Every modern business leader has heard countless stories of failures to innovate, and even more mutations of Silicon Valley's favorite mission statement ("fail fast"). 
           In this blog we'll explore my operational approach, which is focused on achieving a level of internal awareness and leveraging that information in 
           new and increased ways.`}
         </p>
