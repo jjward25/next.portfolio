@@ -202,10 +202,10 @@
     justify-content: left;
     margin-right: 15vw;
     margin-bottom: 5vh;
-    background-color: $light-blue;
+    background-color: $dark-blue;
     border-top: 1px solid $dark-blue;
     border-bottom: 1px solid $dark-blue;
-    border-right: 1px solid $light-blue;
+    border-right: 1px solid $dark-blue;
     z-index: 5;
 
     @include for-tablet-portrait-up {
@@ -226,8 +226,8 @@
     text-align: center;
     font-size: $button-font-size;
     padding: 4px 10px;
-    background-color: $dark-blue;
-    color: white;
+    background-color: $light-blue;
+    color: $dark-blue;
     border-radius: 100px;
     margin: 5px 5px;
     box-shadow: 1px 1px rgb(56, 34, 82);

@@ -38,7 +38,7 @@ export default function Menubar() {
           className={styles["bc-work-icon"]}
         >
           <Image
-            src="/icon-github-clear.png"
+            src="/icon-github-white.png"
             alt="Github"
             layout="fill"
           ></Image>
@@ -55,7 +55,7 @@ export default function Menubar() {
           rel="noreferrer"
           className={styles["bc-work-icon"]}
         >
-          <Image src="/icon-cv-clear.png" alt="Resume" layout="fill"></Image>
+          <Image src="/icon-cv-white.png" alt="Resume" layout="fill"></Image>
         </a>
         Resume
       </p>
@@ -68,7 +68,11 @@ export default function Menubar() {
           title="Copy E-Mail"
           className={styles["bc-work-icon"]}
         >
-          <Image src="/icon-email.png" alt="Email Me" layout="fill"></Image>
+          <Image
+            src="/icon-email-white.png"
+            alt="Email Me"
+            layout="fill"
+          ></Image>
         </a>
         E-Mail
       </p>
