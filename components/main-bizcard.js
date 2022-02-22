@@ -66,7 +66,7 @@ export default function Bizcard() {
         {`I also love keeping up with science and tech advancements, business and political theory, and generally look for new experiences in life - from running with the bulls in Pamplona to homeless outreach in Penn Station.`}
       </div>
       <div className={styles["personal-statement"]}>
-        {`I can code but I'm not a coder, so instead I enjoy sitting at the cross-section of technology and operations, finding unique solutions for unique problems, and helping all kinds of teams reach their maximum potential.`}
+        {`I can code but I'm not a coder, instead I enjoy sitting at the cross-section of technology and operations, finding unique solutions for unique problems, and helping all kinds of teams reach their maximum potential.`}
       </div>
 
       <Skillbar />
