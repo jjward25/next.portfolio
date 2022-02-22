@@ -41,7 +41,7 @@ export default function BlogOverview() {
 
         <p className={styles["blog-description"]}>
           {`This blog is all about #3. What problem you're solving is not the question: the question here is how can your company solve the problem(s) in the best way(s), 
-          staff appropriately, with the right tools, while building the best relationships and innovating and iterating continuously.`}
+          staff appropriately, with the right tools, while building the best relationships and innovating and iterating continuously?`}
         </p>
 
         <p className={styles["blog-description"]}>

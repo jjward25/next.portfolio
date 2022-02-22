@@ -1,30 +1,30 @@
 [
-    {
-        "link":"https://github.com/jjward25/python-ca_scrapers/tree/main/CurrentEvents",
-        "source":"/other-scrapers.png",
-        "title":"News Headline Webscrapers",
-        "description":"Created more than 30 web scrapers to pull daily headlines from every government branch, most major news networks, and more.",
-        "tags":["Python","BeautifulSoup"]
-    },
-    {
-        "link":"",
-        "source":"/other-shopify.png",
-        "title":"Shopify Reporting Template",
-        "description":"Sifted through Shopify standard reports and built a more intuitive reporting template on top for any Shopify store to plug their data into.",
-        "tags":["Shopify","Tableau","Analysis"]
-    },
-    {
-        "link":"https://www.topictournaments.com/",
-        "source":"/other-topictourny.png",
-        "title":"Topic Tournaments",
-        "description":"Created a game for users to debate, in bracket format, the best and worst of anything.",
-        "tags":["ReactJS","AWS"]
-    },
-    {
-        "link":"https://medium.com/cultural-commentary",
-        "source":"/img-bulb.png",
-        "title":"Personal Blog",
-        "description":"Personal thoughts on politics, society, the meaning of cliches, and more.",
-        "tags":["Medium"]
-    }
+  {
+    "link": "https://github.com/jjward25/python-ca_scrapers/tree/main/CurrentEvents",
+    "source": "/other-scrapers.png",
+    "title": "News Headline Webscrapers",
+    "description": "Created more than 30 web scrapers to pull daily headlines from every government branch, most major news networks, and more.",
+    "tags": ["Python", "BeautifulSoup"]
+  },
+  {
+    "link": "",
+    "source": "/other-shopify.png",
+    "title": "Shopify Reporting Template",
+    "description": "Sifted through Shopify standard reports and built a more intuitive reporting template on top for any Shopify store to plug their data into.",
+    "tags": ["Shopify", "Tableau", "Analysis"]
+  },
+  {
+    "link": "https://www.topictournaments.com/",
+    "source": "/other-topictourny.png",
+    "title": "Topic Tournaments",
+    "description": "Created a game for users to debate, in bracket format, the best and worst of anything.",
+    "tags": ["ReactJS", "AWS"]
+  },
+  {
+    "link": "https://medium.com/cultural-commentary",
+    "source": "/img-bulb.png",
+    "title": "Personal Blog",
+    "description": "Personal thoughts on politics, society, the meanings of cliches, and more.",
+    "tags": ["Medium"]
+  }
 ]
