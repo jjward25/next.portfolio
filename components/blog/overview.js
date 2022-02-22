@@ -46,13 +46,12 @@ export default function BlogOverview() {
 
         <p className={styles["blog-description"]}>
           {`Every modern business leader has heard countless stories of failures to innovate, and even more mutations of Silicon Valley's favorite mission statement ("fail fast"). 
-          In this blog we'll explore my operational approach, which is focused on achieving a level of internal awareness and leveraging that information in 
-          new and increased ways.`}
+          In this blog we'll explore my operational approach, which is more focused on change management than change for the sake of change.`}
         </p>
 
         <p className={styles["blog-description"]}>
-          {`The Processes tab will explore ways to develop detailed organizational awareness and foster employee-driven change.  The Data tab explores ways to
-          automate specific tasks and other sample analyses.  Other displays side-projects and unrelated blog posts.`}
+          {`The Processes tab will explore ways to develop detailed organizational awareness, foster employee-driven change, and adjust accordingly.  The Data tab will explore ways to
+          automate specific tasks and other sample analyses.`}
         </p>
       </div>
 
