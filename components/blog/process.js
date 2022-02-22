@@ -111,7 +111,7 @@ export default function BlogProcess() {
         <div
           className={styles["blog-subtitle"]}
           style={{ paddingLeft: "1vw" }}
-        >{`Process & Tool Links`}</div>
+        >{`Case Studies`}</div>
 
         <a
           className={styles["sidebar-link"]}
@@ -121,13 +121,8 @@ export default function BlogProcess() {
           alt="case study"
           href="https://public-docs2.s3.amazonaws.com/Case+Study+-+Resource+ReAssignment.pdf"
         >
-          <li>{`Case Study: Re-Allocating Project Resources`}</li>
+          <li>{`Re-Allocating Project Resources`}</li>
         </a>
-
-        <div
-          className={styles["blog-subtitle"]}
-          style={{ paddingLeft: "1vw", marginTop: "50px" }}
-        >{`People & Partner Links`}</div>
       </div>
     </div>
   );

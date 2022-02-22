@@ -40,7 +40,7 @@ export default function BlogData() {
         </a>
 
         <div className={styles["blog-subtitle"]} style={{ paddingLeft: "1vw" }}>
-          {`Case Studies & Templates`}
+          {`Case Studies`}
         </div>
         <a
           className={styles["sidebar-link"]}
@@ -50,7 +50,7 @@ export default function BlogData() {
           alt="case study"
           href="https://public-docs2.s3.amazonaws.com/Real-Time+Data+Environment.png"
         >
-          <li>{`Case Study: Realtime Data Analysis Architecture`}</li>
+          <li>{`Realtime Data Analysis Architecture`}</li>
         </a>
       </div>
     </div>
