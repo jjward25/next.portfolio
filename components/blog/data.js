@@ -33,10 +33,20 @@ export default function BlogData() {
           target="_blank"
           rel="noreferrer"
           title="Automate the Boring Stuff"
-          alt="case study"
+          alt="pythonScripts"
           href="https://github.com/jjward25/python.BoringStuff"
         >
           <li>{`Automate the Boring Stuff: A Collection of Useful Scripts`}</li>
+        </a>
+        <a
+          className={styles["sidebar-link"]}
+          target="_blank"
+          rel="noreferrer"
+          title="jsonifyExcel"
+          alt="jsonifyScript"
+          href="https://github.com/jjward25/python.other/tree/main/jsonifyExcel"
+        >
+          <li>{`Converting an excel table into a multi-level object.`}</li>
         </a>
 
         <div className={styles["blog-subtitle"]} style={{ paddingLeft: "1vw" }}>
