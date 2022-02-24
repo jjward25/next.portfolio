@@ -46,7 +46,7 @@ export default function BlogData() {
           alt="jsonifyScript"
           href="https://github.com/jjward25/python.other/tree/main/jsonifyExcel"
         >
-          <li>{`Converting an excel table into a multi-level object.`}</li>
+          <li>{`Converting an excel table into a multi-level object with python`}</li>
         </a>
 
         <div className={styles["blog-subtitle"]} style={{ paddingLeft: "1vw" }}>
