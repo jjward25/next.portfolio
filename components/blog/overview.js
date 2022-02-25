@@ -14,7 +14,7 @@ export default function BlogOverview() {
         </p>
         <p className={styles["desktop-summary"]} style={{ marginTop: "1vh" }}>
           {`I've continued to learn and listen.  I can code but I'm not a coder; instead I enjoy sitting at the cross-section of technology and operations, finding unique solutions for unique 
-          problems, and helping all kinds of teams reach their maximum potential.`}
+          problems, and helping all kinds of teams reach their maximum potential.  Solutions can include process mapping for KPIs, reporting and dashboarding, automating tasks with python, and general project management.`}
         </p>
 
         <div className={styles["blog-title"]}>Site Overview</div>
