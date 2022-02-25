@@ -46,7 +46,7 @@ export default function BlogOverview() {
 
         <p className={styles["blog-description"]}>
           {`Every modern business leader has heard countless stories of failures to innovate, and even more mutations of Silicon Valley's favorite mission statement ("fail fast"). 
-          In this blog we'll explore my operational approach, which is more focused on change management than change for the sake of change.`}
+          In this blog we'll explore my operational approach, which is more focused on developing world-class operational monitoring to help grease the wheels on these iterations.`}
         </p>
 
         <p className={styles["blog-description"]}>
