@@ -48,7 +48,7 @@ export default function Menubar() {
 
       <p className={styles["bc-link"]}>
         <a
-          href="https://public-docs2.s3.amazonaws.com/Joseph+Ward.pdf"
+          href="https://public-docs2.s3.amazonaws.com/Joe+Ward.pdf"
           title="Resume"
           alt="Resume"
           target="_blank"
@@ -114,7 +114,7 @@ export default function Menubar() {
 
       <p className={styles["bc-link-desktop"]}>
         <a
-          href="https://public-docs2.s3.amazonaws.com/Joseph+Ward.pdf"
+          href="https://public-docs2.s3.amazonaws.com/Joe+Ward.pdf"
           title="Resume"
           alt="Resume"
           target="_blank"
