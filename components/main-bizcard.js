@@ -38,7 +38,7 @@ export default function Bizcard() {
         </div>
         <div className={styles["bc-photo-img"]}>
           <Image
-            src="/selfie-glasses.png"
+            src="/selfie-circle.png"
             layout="fill"
             alt="selfie"
             priority={true}
