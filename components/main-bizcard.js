@@ -2,27 +2,9 @@ import styles from "../styles/Bizcard.module.scss";
 import Image from "next/image";
 import Skillbar from "./main-skillbar";
 import { Menu, Transition } from "@headlessui/react";
-import { useState } from "react";
-import BlogOverview from "./blog/overview";
-import BlogProcess from "./blog/process";
-import BlogData from "./blog/data";
 import "react-window";
 
 export default function Bizcard() {
-  const [blog, setBlog] = useState([]);
-
-  function handleClick(blogElement) {
-    const blogNew = blogElement;
-    setBlog({
-      ...blog,
-      ...blogNew,
-    });
-    window.scrollTo({
-      top: 1000,
-      behavior: "smooth",
-    });
-    console.log(blog);
-  }
 
   return (
     <div className={styles["business-card"]}>
@@ -50,7 +32,11 @@ export default function Bizcard() {
       <div className={styles["bc-blog-wrap"]}>
         <div className={styles["bc-blog-title"]}>Joe Ward</div>
         <div className={styles["bc-blog-subtitle"]}>
-          <em>Operations Specialist</em>
+          <li><em>Operations Specialist</em></li>
+          <li><em>TD Ameritrade</em></li>
+          <li><em>Charles Schwab</em></li>
+          <li><em>Vercel</em></li>
+          <li><em>Cornell Univserity: Political Science</em></li>
         </div>
       </div>
 
@@ -111,8 +97,6 @@ export default function Bizcard() {
           </Transition>
         </Menu>
       </div>
-
-      <div className={styles["mobile-blog-container"]}>{blog}</div>
     </div>
   );
 }

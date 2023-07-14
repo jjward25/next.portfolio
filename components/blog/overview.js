@@ -7,15 +7,11 @@ export default function BlogOverview() {
     <div className={styles["blog-component-container"]}>
       <div className={styles["blog-text-wrap"]}>
         <div className={styles["desktop-title"]}>About Me</div>
-        <p className={styles["desktop-summary"]}>
-          {`From running with the bulls in Pamplona to homeless outreach in Penn Station, I've always valued time and sought new experiences. My career began in 
-          a rotational program that exposed me to Lean, SQL, Tableau, formal project management, and how people react when they think you’re telling them how to 
-          do their job.`}
-        </p>
         <p className={styles["desktop-summary"]} style={{ marginTop: "1vh" }}>
           {`I've continued to learn and listen.  I can code but I'm not a coder; instead I enjoy sitting at the cross-section of technology and operations, finding unique solutions for unique 
           problems, and helping all kinds of teams reach their maximum potential.  Solutions can include process mapping for KPIs, reporting and dashboarding, automating tasks with python, and general project management.`}
         </p>
+        <div className={styles["blog-title"]}>Work Experience</div>
 
         <div className={styles["blog-title"]}>Site Overview</div>
 

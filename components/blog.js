@@ -7,25 +7,12 @@ import BlogData from "./blog/data";
 export default function Blog() {
   return (
     <div className={styles["blog-wrap"]}>
-      <Tabs defaultIndex={0} onSelect={(index) => console.log(index)}>
-        <TabList>
-          <Tab>Overview</Tab>
-          <Tab>{`Processes & Tools`}</Tab>
-          <Tab>{`Data & Analytics`}</Tab>
-        </TabList>
-
-        <TabPanel>
+      <div defaultIndex={0} onSelect={(index) => console.log(index)}>
+        <div>
           <BlogOverview />
-        </TabPanel>
-
-        <TabPanel>
-          <BlogProcess />
-        </TabPanel>
-
-        <TabPanel>
-          <BlogData />
-        </TabPanel>
-      </Tabs>
+        </div>
+    
+      </div>
     </div>
   );
 }
